@@ -48,6 +48,16 @@ h6 {
   color: #ffffff;
 }
 
+h7 {
+  font-family: "Raleway", sans-serif;
+  font-size: 160%;
+  text-align: justify;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #ffffff;
+}
+
 .main-page {
   margin-top: 70px;
 }
