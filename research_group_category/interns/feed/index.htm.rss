@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Interns &#8211; SG-REAL::WVU</title>
+	<atom:link href="https://anslegal.in/wsu/research_group_category/interns/feed/" rel="self" type="application/rss+xml" />
+	<link>https://anslegal.in/wsu</link>
+	<description></description>
+	<lastBuildDate>Tue, 09 Nov 2021 17:43:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
+	<item>
+		<title>Rushabh Shah(WSU)</title>
+		<link>https://anslegal.in/wsu/research_group/rushabh-shahwsu/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 09 Nov 2021 17:03:43 +0000</pubDate>
+				<guid isPermaLink="false">https://anslegal.in/wsu/?post_type=research_group&#038;p=545</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sanjita (WSU)</title>
+		<link>https://anslegal.in/wsu/research_group/sanjita-wsu/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 09 Nov 2021 17:01:14 +0000</pubDate>
+				<guid isPermaLink="false">https://anslegal.in/wsu/?post_type=research_group&#038;p=543</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
