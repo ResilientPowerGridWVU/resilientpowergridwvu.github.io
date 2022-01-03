@@ -290,176 +290,176 @@ div#side_sticky {
             </div>
             <div class="col-md-9">
                 <div class="main_content">
-                                                
-<figure class="wp-block-image is-style-twentytwentyone-border"><img src="../../wp-content/uploads/2021/05/pycanvass.png" alt="" class="wp-image-666"></figure>
 
+                    <figure class="wp-block-image is-style-twentytwentyone-border"><img src="../wp-content/uploads/2021/11/pycanvass.png" alt="" class="wp-image-666"></figure>
 
 
-<p>CANVASS stands for Cyber Attacks and Network Vulnerability Analytics Software for Smart Grids. py-CANVASS is a Python-based free and open source library for computing resiliency of Smart Grid and power systems critical infrastructure. It has a unique resiliency computation engine, and it enables integration with other industry-standard power system simulation software like GridLAB-D, and Real-Time Digital Simulators.</p>
 
+                    <p>CANVASS stands for Cyber Attacks and Network Vulnerability Analytics Software for Smart Grids. py-CANVASS is a Python-based free and open source library for computing resiliency of Smart Grid and power systems critical infrastructure. It has a unique resiliency computation engine, and it enables integration with other industry-standard power system simulation software like GridLAB-D, and Real-Time Digital Simulators.</p>
 
 
-<figure class="wp-block-image is-style-twentytwentyone-border"><img src="../../wp-content/uploads/2021/05/pycanvass1.png" alt="" class="wp-image-668"></figure>
 
+                    <figure class="wp-block-image is-style-twentytwentyone-border"><img src="../wp-content/uploads/2021/11/pycanvass1.png" alt="" class="wp-image-668"></figure>
 
 
-<p>PyCanvass is under active development in SGDRIL at Washington State University. The project is hosted on Github:&nbsp;<a href="../../sayonsom/pycanvass.html">https://github.com/sayonsom/pycanvass</a></p>
 
+                    <p>PyCanvass is under active development in SGDRIL at Washington State University. The project is hosted on Github:&nbsp;<a href="https://github.com/sayonsom/pycanvass">https://github.com/sayonsom/pycanvass</a></p>
 
 
-<p>If you have any questions, or find bugs – please email Sayonsom Chanda:&nbsp;<a href="mailto:sayon@ieee.org">sayon@ieee.org</a></p>
 
+                    <p>If you have any questions, or find bugs – please email Sayonsom Chanda:&nbsp;<a href="mailto:sayon@ieee.org">sayon@ieee.org</a></p>
 
 
-<h2>Typical Use-Cases</h2>
 
+                    <h2 id="tab1">Typical Use-Cases</h2>
 
 
-<ul><li>Easy power system modeling – you can use it to quickly build GridLAB-D Models.</li><li>Data-driven Disaster response design (through reconfiguration algorithms)</li><li>Cyber-physical power grid simulations</li><li>Resource optimization during extreme events</li><li>Resiliency computation (also, design your own resiliency metric)</li><li>Connect with digital real-time simulators, like RTDS, Opal-RT.</li><li>Simulate cyber attacks for education/research purposes</li></ul>
 
+                    <ul><li>Easy power system modeling – you can use it to quickly build GridLAB-D Models.</li><li>Data-driven Disaster response design (through reconfiguration algorithms)</li><li>Cyber-physical power grid simulations</li><li>Resource optimization during extreme events</li><li>Resiliency computation (also, design your own resiliency metric)</li><li>Connect with digital real-time simulators, like RTDS, Opal-RT.</li><li>Simulate cyber attacks for education/research purposes</li></ul>
 
 
-<h2>Installation</h2>
 
+                    <h2 id="tab11">Installation</h2>
 
 
-<h4>Using pip</h4>
 
+                    <h4>Using pip</h4>
 
 
-<p>These installations are stable and well-supported. The most preferred way of installing PyCanvass is using pip:</p>
 
+                    <p>These installations are stable and well-supported. The most preferred way of installing PyCanvass is using pip:</p>
 
 
-<p>pip install pycanvass</p>
 
+                    <p>pip install pycanvass</p>
 
 
-<p>If you have previously installed PyCanvass, it is recommended to frequently.</p>
 
+                    <p>If you have previously installed PyCanvass, it is recommended to frequently.</p>
 
 
-<p>pip uninstall pycanvass</p>
 
+                    <p>pip uninstall pycanvass</p>
 
 
-<p>pip install –upgrade pycanvass</p>
 
+                    <p>pip install –upgrade pycanvass</p>
 
 
-<h4>Build Your Own</h4>
 
+                    <h4>Build Your Own</h4>
 
 
-<p>These installations have the freshest code, but it may contain bugs. Please follow the steps:</p>
 
+                    <p>These installations have the freshest code, but it may contain bugs. Please follow the steps:</p>
 
 
-<ol><li>Download this repository as a Zip file.</li><li>Extract it to a location of your choice.</li><li>Change directory to the folder in Command Prompt, and run.</li></ol>
 
+                    <ol><li>Download this repository as a Zip file.</li><li>Extract it to a location of your choice.</li><li>Change directory to the folder in Command Prompt, and run.</li></ol>
 
 
-<p>python setup.py install Assumes you have Python installed and already set to your path.</p>
 
+                    <p>python setup.py install Assumes you have Python installed and already set to your path.</p>
 
 
-<h2>Getting Started Guide</h2>
 
+                    <h2 id="tab111">Getting Started Guide</h2>
 
 
-<p>[Full documentation is coming soon]&nbsp;<em>Your first pyCanvass program</em>&nbsp;We try to make this library accessible to non-programmers, programming beginners, non-power engineers, as well as the most hardened software-professionals. Feel free to read in detail of each step, or skip – as appropriate for your skill-level.</p>
 
+                    <p>[Full documentation is coming soon]&nbsp;<em>Your first pyCanvass program</em>&nbsp;We try to make this library accessible to non-programmers, programming beginners, non-power engineers, as well as the most hardened software-professionals. Feel free to read in detail of each step, or skip – as appropriate for your skill-level.</p>
 
 
-<ul><li>Make sure you have the latest versions of pyCanvass, Python, and GridLAB-D installed correctly.</li><li>Create a new folder, and inside that include a user_preferences.json file, and project_config.json file. Examples of these are in the demo-data.</li><li>Also download the example node-file.csv, node-file.csv, and threat-file.csv – and keep them in the same folder.</li><li>Using any text editor (like Notepad++ or VS Code or Sublime Text), open the project_config.json file.</li><li>Edit the data section of the project_config file, replacing the paths mentioned in the nodes, edges, and threat section of the file with the file path of where you just placed the node-file.csv, edge-file.csv, and threat-file.csv.</li><li>In your text editor, open a new file and save as “mymodel.py”</li><li>In mymodel.py, write:from pycanvass.all import * project, nodes, edges = load_project()</li><li>Now you are ready to perform network Vulnerability analysis. If you want to find the least risk path, i.e. the most resilient path, from a node, say F1_2 in the node-file.csv in the sample to another node, F2_3, just add the following code to your program above:</li><li>paths = path_search(mygraph, ‘F1_2’, ‘F2_3’, criterion=”least_risk”) print(paths)</li></ul>
 
+                    <ul><li>Make sure you have the latest versions of pyCanvass, Python, and GridLAB-D installed correctly.</li><li>Create a new folder, and inside that include a user_preferences.json file, and project_config.json file. Examples of these are in the demo-data.</li><li>Also download the example node-file.csv, node-file.csv, and threat-file.csv – and keep them in the same folder.</li><li>Using any text editor (like Notepad++ or VS Code or Sublime Text), open the project_config.json file.</li><li>Edit the data section of the project_config file, replacing the paths mentioned in the nodes, edges, and threat section of the file with the file path of where you just placed the node-file.csv, edge-file.csv, and threat-file.csv.</li><li>In your text editor, open a new file and save as “mymodel.py”</li><li>In mymodel.py, write:from pycanvass.all import * project, nodes, edges = load_project()</li><li>Now you are ready to perform network Vulnerability analysis. If you want to find the least risk path, i.e. the most resilient path, from a node, say F1_2 in the node-file.csv in the sample to another node, F2_3, just add the following code to your program above:</li><li>paths = path_search(mygraph, ‘F1_2’, ‘F2_3’, criterion=”least_risk”) print(paths)</li></ul>
 
 
-<h2>Citation</h2>
 
+                    <h2 id="tab1111">Citation</h2>
 
 
-<p>If you use PyCanvass in your simulations, please cite the library in your work. The citation helps other researchers who are not familiar with PyCanvass to easily reproduce results of your work, thus increasing the credibility and re-usability of your work. Also, we will soon release a website that features different papers that have used PyCanvass. Please let us know so that we can help increase the visibility of your work by featuring it on our website.</p>
 
+                    <p>If you use PyCanvass in your simulations, please cite the library in your work. The citation helps other researchers who are not familiar with PyCanvass to easily reproduce results of your work, thus increasing the credibility and re-usability of your work. Also, we will soon release a website that features different papers that have used PyCanvass. Please let us know so that we can help increase the visibility of your work by featuring it on our website.</p>
 
 
-<ul><li>S. Chanda, A. Srivastava, R. Hovsapian, “pycanvass: an Open Source Cyber-Attack and Network Vulnerability Assessment Tool for Resiliency Analysis of Distribution Systems”, IEEE Trans. Smart Grid (to be submitted)</li></ul>
 
+                    <ul><li>S. Chanda, A. Srivastava, R. Hovsapian, “pycanvass: an Open Source Cyber-Attack and Network Vulnerability Assessment Tool for Resiliency Analysis of Distribution Systems”, IEEE Trans. Smart Grid (to be submitted)</li></ul>
 
 
-<h2>Resources</h2>
 
+                    <h2 id="tab11111">Resources</h2>
 
 
-<h4>GitHub</h4>
 
+                    <h4>GitHub</h4>
 
 
-<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
-https://github.com/sayonsom/pycanvass
-</div></figure>
 
+                    <figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+                        https://github.com/sayonsom/pycanvass
+                    </div></figure>
 
 
-<h4>Videos</h4>
 
+                    <h4>Videos</h4>
 
 
-<p>Canvass – Intro Video</p>
 
+                    <p>Canvass – Intro Video</p>
 
 
-<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Canvass - Intro Video" width="750" height="422" src="../../embed/Vrm5RCVMseA.html?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div></figure>
 
+                    <figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+                        <iframe loading="lazy" title="Canvass - Intro Video" width="750" height="422" src="https://www.youtube.com/embed/Vrm5RCVMseA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="max-width: 100%; max-height: 464px;"></iframe>
+                    </div></figure>
 
 
-<p>PyCanvass – An easy open-source tool resiliency simulations of power distribution systems</p>
 
+                    <p>PyCanvass – An easy open-source tool resiliency simulations of power distribution systems</p>
 
 
-<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="PyCanvass - An easy open-source tool resiliency simulations of power distribution sytems" width="750" height="422" src="../../embed/ybwCLNTrps0.html?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div></figure>
 
+                    <figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+                        <iframe loading="lazy" title="PyCanvass - An easy open-source tool resiliency simulations of power distribution sytems" width="750" height="422" src="https://www.youtube.com/embed/ybwCLNTrps0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="max-width: 100%; max-height: 464px;"></iframe>
+                    </div></figure>
 
 
-<p>How to measure resiliency of power grid using CANVASS before a hurricane? </p>
 
+                    <p>How to measure resiliency of power grid using CANVASS before a hurricane? </p>
 
 
-<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="How to measure resiliency of power grid using CANVASS before a hurricane?" width="750" height="422" src="../../embed/mMu452dKgbg.html?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div></figure>
 
+                    <figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+                        <iframe loading="lazy" title="How to measure resiliency of power grid using CANVASS before a hurricane?" width="750" height="422" src="https://www.youtube.com/embed/mMu452dKgbg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="max-width: 100%; max-height: 464px;"></iframe>
+                    </div></figure>
 
 
-<h2>Community Contribution</h2>
 
+                    <h2 id="tab111111">Community Contribution</h2>
 
 
-<p>There are many ways you help us.</p>
 
+                    <p>There are many ways you help us.</p>
 
 
-<ul><li>If you find some errors and bugs, please let us know.</li><li>Submit feature requests.</li><li>Submit pull requests with your own additions and contributions.</li></ul>
 
+                    <ul><li>If you find some errors and bugs, please let us know.</li><li>Submit feature requests.</li><li>Submit pull requests with your own additions and contributions.</li></ul>
 
 
-<h4>Social</h4>
 
+                    <h4>Social</h4>
 
 
-<ul><li>Cite PyCanvass in your research.</li><li>Give us a “Star” on GitHub.</li><li>Share the project on LinkedIn, Twitter, Facebook, and write about us in your blogs.</li><li>Subscribe to our channel, comment and share PyCanvass Videos on YouTube.</li></ul>
 
+                    <ul><li>Cite PyCanvass in your research.</li><li>Give us a “Star” on GitHub.</li><li>Share the project on LinkedIn, Twitter, Facebook, and write about us in your blogs.</li><li>Subscribe to our channel, comment and share PyCanvass Videos on YouTube.</li></ul>
 
 
-<h2>Contact</h2>
 
+                    <h2 id="tab1111111">Contact</h2>
 
 
-<p>Email:&nbsp;<a href="mailto:sayon@ieee.org">sayon@ieee.org</a></p>
+
+                    <p>Email:&nbsp;<a href="mailto:sayon@ieee.org">sayon@ieee.org</a></p>
                 </div>
             </div>
         </div>
