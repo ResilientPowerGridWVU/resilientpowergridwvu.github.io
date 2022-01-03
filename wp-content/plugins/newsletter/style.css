@@ -31,9 +31,9 @@ CUSTOM CSS RULES.
     margin: 0;
 }
 
-.tnp-subscription input[type=text], 
-.tnp-subscription input[type=email], 
-.tnp-subscription input[type=submit], 
+.tnp-subscription input[type=text],
+.tnp-subscription input[type=email],
+.tnp-subscription input[type=submit],
 .tnp-subscription select {
     width: 100%;
     height: 50px;
@@ -52,7 +52,7 @@ CUSTOM CSS RULES.
     box-sizing: border-box;
 }
 
-.tnp-subscription input[type=checkbox], 
+.tnp-subscription input[type=checkbox],
 .tnp-widget input[type=radio] {
     max-width: 20px;
     display: inline-block;
@@ -91,10 +91,10 @@ CUSTOM CSS RULES.
     color: #333;
 }
 
-.tnp-profile form .tnp-field input[type=text], 
-.tnp-profile form .tnp-field input[type=email], 
-.tnp-profile form .tnp-field input[type=submit], 
-.tnp-profile form .tnp-field textarea, 
+.tnp-profile form .tnp-field input[type=text],
+.tnp-profile form .tnp-field input[type=email],
+.tnp-profile form .tnp-field input[type=submit],
+.tnp-profile form .tnp-field textarea,
 .tnp-profile form .tnp-field select {
     padding: 10px;
     display: block;
@@ -143,7 +143,6 @@ CUSTOM CSS RULES.
 }
 
 
-
 .tnp-widget {
     width: 100%;
     display: block;
@@ -166,7 +165,7 @@ CUSTOM CSS RULES.
     width: 100%;
     padding: 10px;
     display: block;
-    border: 1px solid #ddd ;
+    border: 1px solid #ddd;
     border-color: #ddd;
     background-color: #f4f4f4;
     background-image: none;
@@ -201,7 +200,7 @@ CUSTOM CSS RULES.
 }
 
 .tnp-field label {
-    
+
 }
 
 /* Newsletter Widget Minimal */
@@ -306,7 +305,7 @@ CUSTOM CSS RULES.
 
 .tnp-comments input[type=checkbox] {
     display: inline-block;
-    width: auto!important;
+    width: auto !important;
 }
 
 

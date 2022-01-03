@@ -1,1 +1,86 @@
-{"id":713,"date":"2021-11-18T15:45:15","date_gmt":"2021-11-18T15:45:15","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=713"},"modified":"2021-11-18T15:45:15","modified_gmt":"2021-11-18T15:45:15","slug":"engineering-education","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/engineering-education\/","title":{"rendered":"Engineering Education"},"content":{"rendered":"\n<figure class=\"wp-block-image is-style-rounded\"><img src=\"https:\/\/sgdril.eecs.wsu.edu\/wp-content\/uploads\/2021\/05\/EngEducation1.jpg\" alt=\"\" class=\"wp-image-676\"\/><\/figure>\n\n\n\n<figure class=\"wp-block-image is-style-rounded\"><img src=\"https:\/\/sgdril.eecs.wsu.edu\/wp-content\/uploads\/2021\/05\/EngEducation2.jpg\" alt=\"\" class=\"wp-image-675\"\/><\/figure>\n\n\n\n<h3>RECENT PUBLICATIONS<\/h3>\n\n\n\n<ol><li>S. K. Srivastava,&nbsp;<strong><em>A. K. Srivastava<\/em><\/strong>, O. Adesope, A. R. Minerick, and N. Schulz, \u201c<a href=\"http:\/\/www.dl.begellhouse.com\/journals\/00551c876cc2f027,227df84537ba0187,3d13f02a4625e160.html\">Analyzing self-reported challenges and preferences for enhancing recruitment and retention of international female graduate engineering students<\/a>\u201d, Journal of women and minorities in science and engineering, vol. 19, no. 3, pp. 185-208, October 2013.<\/li><li>Soumya K. Srivastava,&nbsp;<strong><em>Anurag K. Srivastava<\/em><\/strong>, Adrienne R. Minerick, and Noel N. Schulz, \u201c<a href=\"https:\/\/sgdril.eecs.wsu.edu\/wp-content\/uploads\/2018\/04\/Recruitment-and-Retention-of-International-Graduate-Students-in-US-Universities-compressed.pdf\">Recruitment and Retention of International Graduate Students in U.S. Universities<\/a>\u201d, International Journal of Engineering Education, vol. 26, no. 6, pp.1561-1574, December, 2010.<\/li><\/ol>\n","protected":false},"excerpt":{"rendered":"<p>RECENT PUBLICATIONS S. K. Srivastava,&nbsp;A. K. Srivastava, O. Adesope, A. R. Minerick, and N. Schulz, \u201cAnalyzing self-reported challenges and preferences for enhancing recruitment and retention of international female graduate engineering students\u201d, Journal of women and minorities in science and engineering, vol. 19, no. 3, pp. 185-208, October 2013. Soumya K. Srivastava,&nbsp;Anurag K. Srivastava, Adrienne R.&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/engineering-education\/\">Continue reading <span class=\"screen-reader-text\">Engineering Education<\/span><\/a><\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"tamplate_one.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/713"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=713"}],"version-history":[{"count":1,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/713\/revisions"}],"predecessor-version":[{"id":714,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/713\/revisions\/714"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=713"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 713,
+  "date": "2021-11-18T15:45:15",
+  "date_gmt": "2021-11-18T15:45:15",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=713"
+  },
+  "modified": "2021-11-18T15:45:15",
+  "modified_gmt": "2021-11-18T15:45:15",
+  "slug": "engineering-education",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/engineering-education\/",
+  "title": {
+    "rendered": "Engineering Education"
+  },
+  "content": {
+    "rendered": "\n<figure class=\"wp-block-image is-style-rounded\"><img src=\"https:\/\/sgdril.eecs.wsu.edu\/wp-content\/uploads\/2021\/05\/EngEducation1.jpg\" alt=\"\" class=\"wp-image-676\"\/><\/figure>\n\n\n\n<figure class=\"wp-block-image is-style-rounded\"><img src=\"https:\/\/sgdril.eecs.wsu.edu\/wp-content\/uploads\/2021\/05\/EngEducation2.jpg\" alt=\"\" class=\"wp-image-675\"\/><\/figure>\n\n\n\n<h3>RECENT PUBLICATIONS<\/h3>\n\n\n\n<ol><li>S. K. Srivastava,&nbsp;<strong><em>A. K. Srivastava<\/em><\/strong>, O. Adesope, A. R. Minerick, and N. Schulz, \u201c<a href=\"http:\/\/www.dl.begellhouse.com\/journals\/00551c876cc2f027,227df84537ba0187,3d13f02a4625e160.html\">Analyzing self-reported challenges and preferences for enhancing recruitment and retention of international female graduate engineering students<\/a>\u201d, Journal of women and minorities in science and engineering, vol. 19, no. 3, pp. 185-208, October 2013.<\/li><li>Soumya K. Srivastava,&nbsp;<strong><em>Anurag K. Srivastava<\/em><\/strong>, Adrienne R. Minerick, and Noel N. Schulz, \u201c<a href=\"https:\/\/sgdril.eecs.wsu.edu\/wp-content\/uploads\/2018\/04\/Recruitment-and-Retention-of-International-Graduate-Students-in-US-Universities-compressed.pdf\">Recruitment and Retention of International Graduate Students in U.S. Universities<\/a>\u201d, International Journal of Engineering Education, vol. 26, no. 6, pp.1561-1574, December, 2010.<\/li><\/ol>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>RECENT PUBLICATIONS S. K. Srivastava,&nbsp;A. K. Srivastava, O. Adesope, A. R. Minerick, and N. Schulz, \u201cAnalyzing self-reported challenges and preferences for enhancing recruitment and retention of international female graduate engineering students\u201d, Journal of women and minorities in science and engineering, vol. 19, no. 3, pp. 185-208, October 2013. Soumya K. Srivastava,&nbsp;Anurag K. Srivastava, Adrienne R.&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/engineering-education\/\">Continue reading <span class=\"screen-reader-text\">Engineering Education<\/span><\/a><\/p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "tamplate_one.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/713"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=713"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/713\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 714,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/713\/revisions\/714"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=713"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

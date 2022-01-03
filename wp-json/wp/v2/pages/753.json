@@ -1,1 +1,86 @@
-{"id":753,"date":"2021-11-18T17:22:03","date_gmt":"2021-11-18T17:22:03","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=753"},"modified":"2021-11-18T17:22:04","modified_gmt":"2021-11-18T17:22:04","slug":"p-q-s-margin-based","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/p-q-s-margin-based\/","title":{"rendered":"P-Q-S Margin Based"},"content":{"rendered":"\n<ol><li>This paper is also based on the concept of VIP. It computes PQ boundary but uses parabolic approximation of the PQ curve. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/6281498\/\">http:\/\/ieeexplore.ieee.org\/document\/6281498\/<\/a>)<\/li><li>This method utilizes all phasor measurements at all buses and network topology to compute the thevenin equivalent system (network reduction is done here but using PMU data for updating current and voltage). The maximum power is calculated using linear approximation. The proposed approach calculates three indices after estimation of Thevenin parameters for real, reactive and apparent power. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/4075891\/\">http:\/\/ieeexplore.ieee.org\/document\/4075891\/<\/a>)<\/li><\/ol>\n","protected":false},"excerpt":{"rendered":"<p>This paper is also based on the concept of VIP. It computes PQ boundary but uses parabolic approximation of the PQ curve. (http:\/\/ieeexplore.ieee.org\/document\/6281498\/) This method utilizes all phasor measurements at all buses and network topology to compute the thevenin equivalent system (network reduction is done here but using PMU data for updating current and voltage).&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/p-q-s-margin-based\/\">Continue reading <span class=\"screen-reader-text\">P-Q-S Margin Based<\/span><\/a><\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"tamplate_one.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/753"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=753"}],"version-history":[{"count":1,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/753\/revisions"}],"predecessor-version":[{"id":754,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/753\/revisions\/754"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=753"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 753,
+  "date": "2021-11-18T17:22:03",
+  "date_gmt": "2021-11-18T17:22:03",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=753"
+  },
+  "modified": "2021-11-18T17:22:04",
+  "modified_gmt": "2021-11-18T17:22:04",
+  "slug": "p-q-s-margin-based",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/p-q-s-margin-based\/",
+  "title": {
+    "rendered": "P-Q-S Margin Based"
+  },
+  "content": {
+    "rendered": "\n<ol><li>This paper is also based on the concept of VIP. It computes PQ boundary but uses parabolic approximation of the PQ curve. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/6281498\/\">http:\/\/ieeexplore.ieee.org\/document\/6281498\/<\/a>)<\/li><li>This method utilizes all phasor measurements at all buses and network topology to compute the thevenin equivalent system (network reduction is done here but using PMU data for updating current and voltage). The maximum power is calculated using linear approximation. The proposed approach calculates three indices after estimation of Thevenin parameters for real, reactive and apparent power. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/4075891\/\">http:\/\/ieeexplore.ieee.org\/document\/4075891\/<\/a>)<\/li><\/ol>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>This paper is also based on the concept of VIP. It computes PQ boundary but uses parabolic approximation of the PQ curve. (http:\/\/ieeexplore.ieee.org\/document\/6281498\/) This method utilizes all phasor measurements at all buses and network topology to compute the thevenin equivalent system (network reduction is done here but using PMU data for updating current and voltage).&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/p-q-s-margin-based\/\">Continue reading <span class=\"screen-reader-text\">P-Q-S Margin Based<\/span><\/a><\/p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "tamplate_one.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/753"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=753"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/753\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 754,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/753\/revisions\/754"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=753"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

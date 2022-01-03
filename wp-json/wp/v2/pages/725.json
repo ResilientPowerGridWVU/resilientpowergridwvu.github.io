@@ -1,1 +1,86 @@
-{"id":725,"date":"2021-11-18T16:04:50","date_gmt":"2021-11-18T16:04:50","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=725"},"modified":"2021-11-18T16:04:51","modified_gmt":"2021-11-18T16:04:51","slug":"pmu-performance-analyzer","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/pmu-performance-analyzer\/","title":{"rendered":"PMU Performance Analyzer"},"content":{"rendered":"\n<p><strong>PMU Performance Analyzer<\/strong>&nbsp;(PPA) is a software tool for analyzing the performance of a PMU during steady-state and dynamic conditions as specified in the IEEE Standard for Synchrophasor Measurements C37.118.1 and IEEE Test Suite Specification (TSS). The PPA also includes some tests that are not in the existing version of IEEE standards. Test suite library is specially designed to evaluate the performance of PMUs in highly realistic situations as they would be subjected to when deployed in real-life substations. Further information is available at:<\/p>\n\n\n\n<h3>RECENT PUBLICATIONS<\/h3>\n\n\n\n<ul><li>S. Biswas,&nbsp;<strong><em>A. Srivastava<\/em><\/strong>, J. Park, and J. Castaneda, \u201c<a href=\"http:\/\/ieeexplore.ieee.org\/xpl\/login.jsp?tp=&amp;arnumber=7042416&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F4082359%2F7042415%2F07042416.pdf%3Farnumber%3D7042416\">New Tool for Testing of Phasor Measurement Units: PMU Performance Analyzer<\/a>&nbsp;\u201c, special issue on Sensors and Data analytics for Smart Grid Infrastructure, IET Generation, Transmission &amp; Distribution, Accepted in August 2014.<\/li><\/ul>\n","protected":false},"excerpt":{"rendered":"<p>PMU Performance Analyzer&nbsp;(PPA) is a software tool for analyzing the performance of a PMU during steady-state and dynamic conditions as specified in the IEEE Standard for Synchrophasor Measurements C37.118.1 and IEEE Test Suite Specification (TSS). The PPA also includes some tests that are not in the existing version of IEEE standards. Test suite library is&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/pmu-performance-analyzer\/\">Continue reading <span class=\"screen-reader-text\">PMU Performance Analyzer<\/span><\/a><\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"tamplate_one.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/725"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=725"}],"version-history":[{"count":1,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/725\/revisions"}],"predecessor-version":[{"id":726,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/725\/revisions\/726"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=725"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 725,
+  "date": "2021-11-18T16:04:50",
+  "date_gmt": "2021-11-18T16:04:50",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=725"
+  },
+  "modified": "2021-11-18T16:04:51",
+  "modified_gmt": "2021-11-18T16:04:51",
+  "slug": "pmu-performance-analyzer",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/pmu-performance-analyzer\/",
+  "title": {
+    "rendered": "PMU Performance Analyzer"
+  },
+  "content": {
+    "rendered": "\n<p><strong>PMU Performance Analyzer<\/strong>&nbsp;(PPA) is a software tool for analyzing the performance of a PMU during steady-state and dynamic conditions as specified in the IEEE Standard for Synchrophasor Measurements C37.118.1 and IEEE Test Suite Specification (TSS). The PPA also includes some tests that are not in the existing version of IEEE standards. Test suite library is specially designed to evaluate the performance of PMUs in highly realistic situations as they would be subjected to when deployed in real-life substations. Further information is available at:<\/p>\n\n\n\n<h3>RECENT PUBLICATIONS<\/h3>\n\n\n\n<ul><li>S. Biswas,&nbsp;<strong><em>A. Srivastava<\/em><\/strong>, J. Park, and J. Castaneda, \u201c<a href=\"http:\/\/ieeexplore.ieee.org\/xpl\/login.jsp?tp=&amp;arnumber=7042416&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F4082359%2F7042415%2F07042416.pdf%3Farnumber%3D7042416\">New Tool for Testing of Phasor Measurement Units: PMU Performance Analyzer<\/a>&nbsp;\u201c, special issue on Sensors and Data analytics for Smart Grid Infrastructure, IET Generation, Transmission &amp; Distribution, Accepted in August 2014.<\/li><\/ul>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>PMU Performance Analyzer&nbsp;(PPA) is a software tool for analyzing the performance of a PMU during steady-state and dynamic conditions as specified in the IEEE Standard for Synchrophasor Measurements C37.118.1 and IEEE Test Suite Specification (TSS). The PPA also includes some tests that are not in the existing version of IEEE standards. Test suite library is&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/pmu-performance-analyzer\/\">Continue reading <span class=\"screen-reader-text\">PMU Performance Analyzer<\/span><\/a><\/p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "tamplate_one.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/725"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=725"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/725\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 726,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/725\/revisions\/726"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=725"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

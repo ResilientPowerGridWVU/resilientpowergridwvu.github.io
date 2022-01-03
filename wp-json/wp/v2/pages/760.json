@@ -1,1 +1,86 @@
-{"id":760,"date":"2021-11-18T17:23:52","date_gmt":"2021-11-18T17:23:52","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=760"},"modified":"2021-11-18T17:23:52","modified_gmt":"2021-11-18T17:23:52","slug":"coupled-single-port-network-based","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/coupled-single-port-network-based\/","title":{"rendered":"Coupled Single Port Network Based"},"content":{"rendered":"\n<ol><li>This paper is based on the concept of coupled single port network. The paper presents a cubic spline based approach for estimation of Thevenin parameters and uses them to compute loading margin. The paper also presents a novel approach for consideration of reactive power limits, which provide operator with important information regarding critical generators. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/7284716\">https:\/\/ieeexplore.ieee.org\/document\/7284716<\/a>)<\/li><li>This paper highlights the issues with Thevenin based equivalent for wide area voltage stability monitoring of multi-load power systems. Authors propose a new approach called \u201cCoupled single port equivalent\u201d which retains the impact of multiple loads in the system. Impedance match theorem is then applied on the obtained 2 port equivalent. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5875916\">https:\/\/ieeexplore.ieee.org\/document\/5875916<\/a>)<\/li><li>This paper builds on the theory of coupled single port network concept and presents a modified approach. The proposed modified approach is able to deal with underestimations of system parameters and enhance the accuracy of reported voltage stability margin. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/6632943\">https:\/\/ieeexplore.ieee.org\/document\/6632943<\/a>)<\/li><li>This paper builds on the theory of coupled single port network concept and presents a modified approach. The proposed new approach deals with underestimation of 2 port network parameters. Modified ward equivalent is utilized to deal with the underestimations. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/6672811\/\">http:\/\/ieeexplore.ieee.org\/document\/6672811\/<\/a>)<\/li><\/ol>\n","protected":false},"excerpt":{"rendered":"<p>This paper is based on the concept of coupled single port network. The paper presents a cubic spline based approach for estimation of Thevenin parameters and uses them to compute loading margin. The paper also presents a novel approach for consideration of reactive power limits, which provide operator with important information regarding critical generators. (https:\/\/ieeexplore.ieee.org\/document\/7284716)&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/coupled-single-port-network-based\/\">Continue reading <span class=\"screen-reader-text\">Coupled Single Port Network Based<\/span><\/a><\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"tamplate_one.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/760"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=760"}],"version-history":[{"count":1,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/760\/revisions"}],"predecessor-version":[{"id":761,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/760\/revisions\/761"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=760"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 760,
+  "date": "2021-11-18T17:23:52",
+  "date_gmt": "2021-11-18T17:23:52",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=760"
+  },
+  "modified": "2021-11-18T17:23:52",
+  "modified_gmt": "2021-11-18T17:23:52",
+  "slug": "coupled-single-port-network-based",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/coupled-single-port-network-based\/",
+  "title": {
+    "rendered": "Coupled Single Port Network Based"
+  },
+  "content": {
+    "rendered": "\n<ol><li>This paper is based on the concept of coupled single port network. The paper presents a cubic spline based approach for estimation of Thevenin parameters and uses them to compute loading margin. The paper also presents a novel approach for consideration of reactive power limits, which provide operator with important information regarding critical generators. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/7284716\">https:\/\/ieeexplore.ieee.org\/document\/7284716<\/a>)<\/li><li>This paper highlights the issues with Thevenin based equivalent for wide area voltage stability monitoring of multi-load power systems. Authors propose a new approach called \u201cCoupled single port equivalent\u201d which retains the impact of multiple loads in the system. Impedance match theorem is then applied on the obtained 2 port equivalent. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5875916\">https:\/\/ieeexplore.ieee.org\/document\/5875916<\/a>)<\/li><li>This paper builds on the theory of coupled single port network concept and presents a modified approach. The proposed modified approach is able to deal with underestimations of system parameters and enhance the accuracy of reported voltage stability margin. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/6632943\">https:\/\/ieeexplore.ieee.org\/document\/6632943<\/a>)<\/li><li>This paper builds on the theory of coupled single port network concept and presents a modified approach. The proposed new approach deals with underestimation of 2 port network parameters. Modified ward equivalent is utilized to deal with the underestimations. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/6672811\/\">http:\/\/ieeexplore.ieee.org\/document\/6672811\/<\/a>)<\/li><\/ol>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>This paper is based on the concept of coupled single port network. The paper presents a cubic spline based approach for estimation of Thevenin parameters and uses them to compute loading margin. The paper also presents a novel approach for consideration of reactive power limits, which provide operator with important information regarding critical generators. (https:\/\/ieeexplore.ieee.org\/document\/7284716)&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/coupled-single-port-network-based\/\">Continue reading <span class=\"screen-reader-text\">Coupled Single Port Network Based<\/span><\/a><\/p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "tamplate_one.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/760"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=760"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/760\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 761,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/760\/revisions\/761"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=760"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

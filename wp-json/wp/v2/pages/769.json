@@ -1,1 +1,86 @@
-{"id":769,"date":"2021-11-18T17:25:40","date_gmt":"2021-11-18T17:25:40","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=769"},"modified":"2021-11-18T17:25:40","modified_gmt":"2021-11-18T17:25:40","slug":"hybrid-voltage-stability-assessment","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/hybrid-voltage-stability-assessment\/","title":{"rendered":"Hybrid Voltage Stability Assessment"},"content":{"rendered":"\n<ol><li>This paper is based on the concept of Region Of Stability Existence (ROSE). It is a hybrid approach wherein PQ boundary forms the region of stability and the real time operating point is plotted inside this stability region and updated at the rate of PMU whereas the stability region is updated with SCADA data rate. (<a href=\"http:\/\/www.vrenergy.com\/index.php\/component\/docman\/doc_download\/18-calculation-and-visualization-of-power-system-stability-margin-based-on-pmu-measurements.html\">vrenergy.com<\/a>)<\/li><li>In this paper authors propose model for PMU integration involving substations, concentrators and control center are addressed for interacting with Hybrid state estimator. In the developed model, online voltage stability applications are proposed. In order demonstrate the concept and advantages of hybrid strategy digital simulations are performed. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5762975\">https:\/\/ieeexplore.ieee.org\/document\/5762975<\/a>)<\/li><li>This paper presents a comparison of corridor voltage stability approaches and Introduces a Hybrid approach to consider the impact of Q-limits in Thevenin based corridor voltage stability approach. (<a href=\"https:\/\/www.researchgate.net\/publication\/335754392_Comparative_Analysis_of_PMU_Based_Corridor_Voltage_Stability_Indices_and_Enhanced_Approach\">ResearchGate<\/a>)<\/li><li><a href=\"https:\/\/patents.google.com\/patent\/US9876352B2\/en\">https:\/\/patents.google.com\/patent\/US9876352B2\/en<\/a><\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/stamp\/stamp.jsp?tp=&amp;arnumber=7103832\">https:\/\/ieeexplore.ieee.org\/stamp\/stamp.jsp?tp=&amp;arnumber=7103832<\/a><\/li><li>The method is based on iteration free estimation of Thevenin parameters and computation of VSAI based on the estimated parameters. The main contribution of the proposed metod is that it doesn\u2019t make assumptions normally made in VIP based approaches. The proposed approach also considers the impact of voltage dependent load models in evaluation of VSAI. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/6682584\/\">http:\/\/ieeexplore.ieee.org\/document\/6682584\/<\/a>)<\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/6965482\">https:\/\/ieeexplore.ieee.org\/document\/6965482<\/a><\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/9000288\">https:\/\/ieeexplore.ieee.org\/document\/9000288<\/a><\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/7521764\">https:\/\/ieeexplore.ieee.org\/document\/7521764<\/a><\/li><\/ol>\n","protected":false},"excerpt":{"rendered":"<p>This paper is based on the concept of Region Of Stability Existence (ROSE). It is a hybrid approach wherein PQ boundary forms the region of stability and the real time operating point is plotted inside this stability region and updated at the rate of PMU whereas the stability region is updated with SCADA data rate.&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/hybrid-voltage-stability-assessment\/\">Continue reading <span class=\"screen-reader-text\">Hybrid Voltage Stability Assessment<\/span><\/a><\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"tamplate_one.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/769"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=769"}],"version-history":[{"count":1,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/769\/revisions"}],"predecessor-version":[{"id":770,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/769\/revisions\/770"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=769"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 769,
+  "date": "2021-11-18T17:25:40",
+  "date_gmt": "2021-11-18T17:25:40",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=769"
+  },
+  "modified": "2021-11-18T17:25:40",
+  "modified_gmt": "2021-11-18T17:25:40",
+  "slug": "hybrid-voltage-stability-assessment",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/hybrid-voltage-stability-assessment\/",
+  "title": {
+    "rendered": "Hybrid Voltage Stability Assessment"
+  },
+  "content": {
+    "rendered": "\n<ol><li>This paper is based on the concept of Region Of Stability Existence (ROSE). It is a hybrid approach wherein PQ boundary forms the region of stability and the real time operating point is plotted inside this stability region and updated at the rate of PMU whereas the stability region is updated with SCADA data rate. (<a href=\"http:\/\/www.vrenergy.com\/index.php\/component\/docman\/doc_download\/18-calculation-and-visualization-of-power-system-stability-margin-based-on-pmu-measurements.html\">vrenergy.com<\/a>)<\/li><li>In this paper authors propose model for PMU integration involving substations, concentrators and control center are addressed for interacting with Hybrid state estimator. In the developed model, online voltage stability applications are proposed. In order demonstrate the concept and advantages of hybrid strategy digital simulations are performed. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5762975\">https:\/\/ieeexplore.ieee.org\/document\/5762975<\/a>)<\/li><li>This paper presents a comparison of corridor voltage stability approaches and Introduces a Hybrid approach to consider the impact of Q-limits in Thevenin based corridor voltage stability approach. (<a href=\"https:\/\/www.researchgate.net\/publication\/335754392_Comparative_Analysis_of_PMU_Based_Corridor_Voltage_Stability_Indices_and_Enhanced_Approach\">ResearchGate<\/a>)<\/li><li><a href=\"https:\/\/patents.google.com\/patent\/US9876352B2\/en\">https:\/\/patents.google.com\/patent\/US9876352B2\/en<\/a><\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/stamp\/stamp.jsp?tp=&amp;arnumber=7103832\">https:\/\/ieeexplore.ieee.org\/stamp\/stamp.jsp?tp=&amp;arnumber=7103832<\/a><\/li><li>The method is based on iteration free estimation of Thevenin parameters and computation of VSAI based on the estimated parameters. The main contribution of the proposed metod is that it doesn\u2019t make assumptions normally made in VIP based approaches. The proposed approach also considers the impact of voltage dependent load models in evaluation of VSAI. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/6682584\/\">http:\/\/ieeexplore.ieee.org\/document\/6682584\/<\/a>)<\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/6965482\">https:\/\/ieeexplore.ieee.org\/document\/6965482<\/a><\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/9000288\">https:\/\/ieeexplore.ieee.org\/document\/9000288<\/a><\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/7521764\">https:\/\/ieeexplore.ieee.org\/document\/7521764<\/a><\/li><\/ol>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>This paper is based on the concept of Region Of Stability Existence (ROSE). It is a hybrid approach wherein PQ boundary forms the region of stability and the real time operating point is plotted inside this stability region and updated at the rate of PMU whereas the stability region is updated with SCADA data rate.&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/hybrid-voltage-stability-assessment\/\">Continue reading <span class=\"screen-reader-text\">Hybrid Voltage Stability Assessment<\/span><\/a><\/p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "tamplate_one.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/769"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=769"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/769\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 770,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/769\/revisions\/770"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=769"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

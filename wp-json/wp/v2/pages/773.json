@@ -1,1 +1,86 @@
-{"id":773,"date":"2021-11-18T17:26:29","date_gmt":"2021-11-18T17:26:29","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=773"},"modified":"2021-11-18T17:26:29","modified_gmt":"2021-11-18T17:26:29","slug":"sensitivity-based-schemes","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/sensitivity-based-schemes\/","title":{"rendered":"Sensitivity Based Schemes"},"content":{"rendered":"\n<ol><li>This is first of the 2 part papers on sensitivity based wide area voltage stability analysis. First part presents the theoretical details of the algebraic model and behavior relevant sensitivity analysis in the proximity of voltage collapse. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5109626\">https:\/\/ieeexplore.ieee.org\/document\/5109626<\/a>)<\/li><li>This is the second part of 2 part paper and this presents results obtained from time domain simulation of NORDIC system with and without measurement noise. Anticipation of over excitation limit activation is also considered. Comparison with Thevenin impedance method is provided. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5109625\">https:\/\/ieeexplore.ieee.org\/document\/5109625<\/a>)<\/li><li>This paper proposes a new voltage stability monitoring index based on Bus voltage magnitude and consecutive voltage deviations. Two criterions (Voltage magnitude and deviation) are combined appropriately to generate the index. Weights are updated adaptively. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/6193464\">https:\/\/ieeexplore.ieee.org\/document\/6193464<\/a>)<\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/7981164\">https:\/\/ieeexplore.ieee.org\/document\/7981164<\/a><\/li><li><a href=\"https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0378779619305073\">https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0378779619305073<\/a><\/li><\/ol>\n","protected":false},"excerpt":{"rendered":"<p>This is first of the 2 part papers on sensitivity based wide area voltage stability analysis. First part presents the theoretical details of the algebraic model and behavior relevant sensitivity analysis in the proximity of voltage collapse. (https:\/\/ieeexplore.ieee.org\/document\/5109626) This is the second part of 2 part paper and this presents results obtained from time domain&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/sensitivity-based-schemes\/\">Continue reading <span class=\"screen-reader-text\">Sensitivity Based Schemes<\/span><\/a><\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"tamplate_one.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/773"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=773"}],"version-history":[{"count":1,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/773\/revisions"}],"predecessor-version":[{"id":774,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/773\/revisions\/774"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=773"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 773,
+  "date": "2021-11-18T17:26:29",
+  "date_gmt": "2021-11-18T17:26:29",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=773"
+  },
+  "modified": "2021-11-18T17:26:29",
+  "modified_gmt": "2021-11-18T17:26:29",
+  "slug": "sensitivity-based-schemes",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/sensitivity-based-schemes\/",
+  "title": {
+    "rendered": "Sensitivity Based Schemes"
+  },
+  "content": {
+    "rendered": "\n<ol><li>This is first of the 2 part papers on sensitivity based wide area voltage stability analysis. First part presents the theoretical details of the algebraic model and behavior relevant sensitivity analysis in the proximity of voltage collapse. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5109626\">https:\/\/ieeexplore.ieee.org\/document\/5109626<\/a>)<\/li><li>This is the second part of 2 part paper and this presents results obtained from time domain simulation of NORDIC system with and without measurement noise. Anticipation of over excitation limit activation is also considered. Comparison with Thevenin impedance method is provided. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/5109625\">https:\/\/ieeexplore.ieee.org\/document\/5109625<\/a>)<\/li><li>This paper proposes a new voltage stability monitoring index based on Bus voltage magnitude and consecutive voltage deviations. Two criterions (Voltage magnitude and deviation) are combined appropriately to generate the index. Weights are updated adaptively. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/6193464\">https:\/\/ieeexplore.ieee.org\/document\/6193464<\/a>)<\/li><li><a href=\"https:\/\/ieeexplore.ieee.org\/document\/7981164\">https:\/\/ieeexplore.ieee.org\/document\/7981164<\/a><\/li><li><a href=\"https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0378779619305073\">https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0378779619305073<\/a><\/li><\/ol>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>This is first of the 2 part papers on sensitivity based wide area voltage stability analysis. First part presents the theoretical details of the algebraic model and behavior relevant sensitivity analysis in the proximity of voltage collapse. (https:\/\/ieeexplore.ieee.org\/document\/5109626) This is the second part of 2 part paper and this presents results obtained from time domain&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/sensitivity-based-schemes\/\">Continue reading <span class=\"screen-reader-text\">Sensitivity Based Schemes<\/span><\/a><\/p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "tamplate_one.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/773"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=773"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/773\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 774,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/773\/revisions\/774"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=773"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

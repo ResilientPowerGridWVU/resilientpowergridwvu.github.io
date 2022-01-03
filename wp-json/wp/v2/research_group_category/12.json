@@ -1,1 +1,46 @@
-{"id":12,"count":19,"description":"","link":"https:\/\/anslegal.in\/wsu\/research_group_category\/ph-d\/","name":"Ph.D.","slug":"ph-d","taxonomy":"research_group_category","parent":4,"meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group_category\/12"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group_category"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/taxonomies\/research_group_category"}],"up":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group_category\/4"}],"wp:post_type":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group?research_group_category=12"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 12,
+  "count": 19,
+  "description": "",
+  "link": "https:\/\/anslegal.in\/wsu\/research_group_category\/ph-d\/",
+  "name": "Ph.D.",
+  "slug": "ph-d",
+  "taxonomy": "research_group_category",
+  "parent": 4,
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group_category\/12"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group_category"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/taxonomies\/research_group_category"
+      }
+    ],
+    "up": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group_category\/4"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/research_group?research_group_category=12"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

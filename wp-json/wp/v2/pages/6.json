@@ -1,1 +1,86 @@
-{"id":6,"date":"2021-09-22T20:37:22","date_gmt":"2021-09-22T20:37:22","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=6"},"modified":"2021-11-18T19:19:21","modified_gmt":"2021-11-18T19:19:21","slug":"home","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/home\/","title":{"rendered":"Home"},"content":{"rendered":"","protected":false},"excerpt":{"rendered":"","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"home.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/6"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=6"}],"version-history":[{"count":108,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/6\/revisions"}],"predecessor-version":[{"id":794,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/6\/revisions\/794"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=6"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 6,
+  "date": "2021-09-22T20:37:22",
+  "date_gmt": "2021-09-22T20:37:22",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=6"
+  },
+  "modified": "2021-11-18T19:19:21",
+  "modified_gmt": "2021-11-18T19:19:21",
+  "slug": "home",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/home\/",
+  "title": {
+    "rendered": "Home"
+  },
+  "content": {
+    "rendered": "",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "home.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/6"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=6"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 108,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/6\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 794,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/6\/revisions\/794"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=6"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

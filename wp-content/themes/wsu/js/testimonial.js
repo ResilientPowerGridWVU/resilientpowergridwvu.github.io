@@ -1,6 +1,5 @@
-
-$(window).on("load", function() {
-    setTimeout(function() {
+$(window).on("load", function () {
+    setTimeout(function () {
 
         function n() {
             S.animate({
@@ -73,11 +72,12 @@ $(window).on("load", function() {
                 d: "M688,103c169,0,662-102.9,662-102.9H0C0,0.1,520,103,688,103z"
             }, 8e3, mina.easeinout, C)
         }
+
         $window = $(window);
         var f = $window.height() / 2,
             h = $("#container-general"),
             g = $("#section-quote").offset().top - f
-        $(document).on('click','#section-quote .container-pe-quote .pp-quote',function() {
+        $(document).on('click', '#section-quote .container-pe-quote .pp-quote', function () {
             var e = $(this).data("textquote");
             $("#section-quote .container-pe-quote .pp-quote").removeClass("active"),
                 $(this).addClass("active"), $("#section-quote .container-quote").removeClass("carousel-on"),
@@ -87,21 +87,21 @@ $(window).on("load", function() {
     }, 150);
 
 
-        setInterval(function () {
-            var maxVal= $("#section-quote .container-pe-quote .pp-quote").length;
-            var randomVal = Math.floor((Math.random() * maxVal)+1);
-            var count = 1;
+    setInterval(function () {
+        var maxVal = $("#section-quote .container-pe-quote .pp-quote").length;
+        var randomVal = Math.floor((Math.random() * maxVal) + 1);
+        var count = 1;
 
 
-            $('.pp-quote').each( function(){
-                var obj = $(this);
-                if(count==randomVal){
-                    var dataRR = obj.attr('data-textquote');
-                    $(".pp-quote[data-textquote="+dataRR+"]").click();
-                }
-                count++;
-            });
-        },4000);
+        $('.pp-quote').each(function () {
+            var obj = $(this);
+            if (count == randomVal) {
+                var dataRR = obj.attr('data-textquote');
+                $(".pp-quote[data-textquote=" + dataRR + "]").click();
+            }
+            count++;
+        });
+    }, 4000);
 
 });
 

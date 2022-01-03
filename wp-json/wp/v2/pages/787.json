@@ -1,1 +1,86 @@
-{"id":787,"date":"2021-11-18T17:37:30","date_gmt":"2021-11-18T17:37:30","guid":{"rendered":"https:\/\/anslegal.in\/wsu\/?page_id=787"},"modified":"2021-11-18T17:37:30","modified_gmt":"2021-11-18T17:37:30","slug":"other-measurement-based-schemes","status":"publish","type":"page","link":"https:\/\/anslegal.in\/wsu\/other-measurement-based-schemes\/","title":{"rendered":"Other Measurement Based Schemes"},"content":{"rendered":"\n<h5>OTHER LOCAL THEVENIN APPROACHES<\/h5>\n\n\n\n<ol><li>Authors develop a new voltage stability monitoring algorithm based on local phasor measurements. The algorithm formulation is based on the concept that in the vicinity of collapse the major chunk of power from sending end is consumed by losses such that near collapse point there is negligible change in apparent power at receiving end. The authors further use this concept to come up with a protection algorithm which is implementable in a numeric relay. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/1043669\">https:\/\/ieeexplore.ieee.org\/document\/1043669<\/a>)<\/li><\/ol>\n\n\n\n<h5>OTHER WIDE AREA APPROACHES\/INDICES<\/h5>\n\n\n\n<ol><li>The authors present a new index that uses voltage magnitudes and angles of all buses along with system topology to compute the index. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/1331008\">https:\/\/ieeexplore.ieee.org\/document\/1331008<\/a>)<\/li><li>This paper concerns with the general considerations regarding use of synchronized phasor measurement units for prediction of voltage collapse. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/4064666\">https:\/\/ieeexplore.ieee.org\/document\/4064666<\/a>)<\/li><\/ol>\n\n\n\n<h5>IMPACT OF LOAD MODELS\/HVDC\/WIND INJECTION<\/h5>\n\n\n\n<ol><li>This paper investigates the impact of customer load modelling, load composition, and load characteristics on power system voltage stability using real-time synchrophasor measurements obtained from PMUs. Load models comprising of ZIP coefficients and Dynamic models are utilized to study the impact on voltage stability assessment in smart grid. Impact of load models on accuracy of various voltage stability indices is analyzed. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/7466709\/\">http:\/\/ieeexplore.ieee.org\/document\/7466709\/<\/a>)<\/li><li>This paper presents an approach to evaluate the HVDC interconnections models to be used in real-time voltage stability assessment is proposed. Existing models for the HVDC interconnections, that are based on voltage source converters are evaluated for their suitability with Thevenin based voltage stability analysis. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/7477162\">https:\/\/ieeexplore.ieee.org\/document\/7477162<\/a>)<\/li><\/ol>\n","protected":false},"excerpt":{"rendered":"<p>OTHER LOCAL THEVENIN APPROACHES Authors develop a new voltage stability monitoring algorithm based on local phasor measurements. The algorithm formulation is based on the concept that in the vicinity of collapse the major chunk of power from sending end is consumed by losses such that near collapse point there is negligible change in apparent power&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/other-measurement-based-schemes\/\">Continue reading <span class=\"screen-reader-text\">Other Measurement Based Schemes<\/span><\/a><\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"tamplate_one.php","meta":[],"_links":{"self":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/787"}],"collection":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=787"}],"version-history":[{"count":1,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/787\/revisions"}],"predecessor-version":[{"id":788,"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/787\/revisions\/788"}],"wp:attachment":[{"href":"https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=787"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+  "id": 787,
+  "date": "2021-11-18T17:37:30",
+  "date_gmt": "2021-11-18T17:37:30",
+  "guid": {
+    "rendered": "https:\/\/anslegal.in\/wsu\/?page_id=787"
+  },
+  "modified": "2021-11-18T17:37:30",
+  "modified_gmt": "2021-11-18T17:37:30",
+  "slug": "other-measurement-based-schemes",
+  "status": "publish",
+  "type": "page",
+  "link": "https:\/\/anslegal.in\/wsu\/other-measurement-based-schemes\/",
+  "title": {
+    "rendered": "Other Measurement Based Schemes"
+  },
+  "content": {
+    "rendered": "\n<h5>OTHER LOCAL THEVENIN APPROACHES<\/h5>\n\n\n\n<ol><li>Authors develop a new voltage stability monitoring algorithm based on local phasor measurements. The algorithm formulation is based on the concept that in the vicinity of collapse the major chunk of power from sending end is consumed by losses such that near collapse point there is negligible change in apparent power at receiving end. The authors further use this concept to come up with a protection algorithm which is implementable in a numeric relay. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/1043669\">https:\/\/ieeexplore.ieee.org\/document\/1043669<\/a>)<\/li><\/ol>\n\n\n\n<h5>OTHER WIDE AREA APPROACHES\/INDICES<\/h5>\n\n\n\n<ol><li>The authors present a new index that uses voltage magnitudes and angles of all buses along with system topology to compute the index. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/1331008\">https:\/\/ieeexplore.ieee.org\/document\/1331008<\/a>)<\/li><li>This paper concerns with the general considerations regarding use of synchronized phasor measurement units for prediction of voltage collapse. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/4064666\">https:\/\/ieeexplore.ieee.org\/document\/4064666<\/a>)<\/li><\/ol>\n\n\n\n<h5>IMPACT OF LOAD MODELS\/HVDC\/WIND INJECTION<\/h5>\n\n\n\n<ol><li>This paper investigates the impact of customer load modelling, load composition, and load characteristics on power system voltage stability using real-time synchrophasor measurements obtained from PMUs. Load models comprising of ZIP coefficients and Dynamic models are utilized to study the impact on voltage stability assessment in smart grid. Impact of load models on accuracy of various voltage stability indices is analyzed. (<a href=\"http:\/\/ieeexplore.ieee.org\/document\/7466709\/\">http:\/\/ieeexplore.ieee.org\/document\/7466709\/<\/a>)<\/li><li>This paper presents an approach to evaluate the HVDC interconnections models to be used in real-time voltage stability assessment is proposed. Existing models for the HVDC interconnections, that are based on voltage source converters are evaluated for their suitability with Thevenin based voltage stability analysis. (<a href=\"https:\/\/ieeexplore.ieee.org\/document\/7477162\">https:\/\/ieeexplore.ieee.org\/document\/7477162<\/a>)<\/li><\/ol>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>OTHER LOCAL THEVENIN APPROACHES Authors develop a new voltage stability monitoring algorithm based on local phasor measurements. The algorithm formulation is based on the concept that in the vicinity of collapse the major chunk of power from sending end is consumed by losses such that near collapse point there is negligible change in apparent power&hellip; <a class=\"more-link\" href=\"https:\/\/anslegal.in\/wsu\/other-measurement-based-schemes\/\">Continue reading <span class=\"screen-reader-text\">Other Measurement Based Schemes<\/span><\/a><\/p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "tamplate_one.php",
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/787"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/types\/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/users\/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/comments?post=787"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/787\/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 788,
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/pages\/787\/revisions\/788"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https:\/\/anslegal.in\/wsu\/wp-json\/wp\/v2\/media?parent=787"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https:\/\/api.w.org\/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}
