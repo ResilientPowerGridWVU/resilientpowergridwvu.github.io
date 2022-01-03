@@ -313,7 +313,7 @@ ul#sidebar_menu {
     top: 40px;
     width: 100%;
     z-index: 9;
-    height: 93vh;
+    height: 90vh;
     overflow: auto;
 }
 ul#sidebar_menu li.active {
@@ -404,6 +404,14 @@ ul#sidebar_menu li.active a {
 {
     padding-top: 0;
 } 
+.mainmenu ul ul li a, .mainmenu ul li.has-mega .mega-menu span a {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 8px 10px 8px 20px;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+}
 @media (max-width: 1466px){
     .kv_navigation_wrapper {
         float: left;
