@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop on Enabling Cyber-Resilient Distribution Systems with Edge-IBR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logos {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logos img {
+            margin: 0 15px;
+            width: 160px;  /* Set uniform width */
+            height: 80px;  /* Set uniform height */
+            object-fit: contain; 
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+        .session {
+            margin: 20px 0;
+        }
+        .contact {
+            margin-top: 20px;
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 5px solid #0073e6;
+        }
+        .contact a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logos Section -->
+        <div class="logos">
+            <img src="MIT.png" alt="Logo 1">
+            <img src="WVU.png" alt="Logo 2">
+            <img src="IITBHU.png" alt="Logo 3">
+            <img src="NSF.png" alt="Logo 4">
+        </div>
+
+        <h1>Workshop on Enabling Cyber-Resilient Distribution Systems with Edge-IBR</h1>
+        <p><strong>Date:</strong> October 19, 2024</p>
+        <p><strong>Location:</strong> Massachusetts Institute of Technology</p>
+        
+        <h2>Overview</h2>
+        <p>Join us for an in-depth workshop on "Enabling Cyber-Resilient Distribution Systems with Edge Inverter-Based Resources (IBR)." This event will bring together industry experts, researchers, and practitioners to explore advanced strategies for enhancing the resilience and security of distribution systems incorporating IBR at the edge.</p>
+        <p>Through a series of focused sessions inspired by an NSF project, participants will gain valuable insights into monitoring, visibility, and data-driven approaches to detecting cyber anomalies and threats, and distributed optimization and control-based mitigation for enabling resilient electric distribution systems.</p>
+
+        <h2>Workshop Goals</h2>
+        <ul>
+            <li><strong>Understand the Challenges:</strong> Explore the unique challenges posed by the integration of Inverter-Based Resources (IBR) and associated cyber systems into distribution systems at the edge.</li>
+            <li><strong>Enhance Monitoring and Visibility:</strong> Learn about the latest techniques for improving the monitoring and visibility of cyber anomalies/threats and IBR in distribution networks.</li>
+            <li><strong>Leverage Data-Driven Techniques:</strong> Discover how data-driven approaches and machine learning-assisted distributed optimization and control can be applied to mitigate the impact of cyber threats in electric distribution systems.</li>
+            <li><strong>Foster Collaboration:</strong> Create opportunities for long-term collaboration and knowledge sharing among participants from different disciplines for advancing the state of the art and broader impacts.</li>
+        </ul>
+
+        <h2>Schedule</h2>
+        <div class="session">
+            <h3>Welcome and Background: 9:00 - 9:10 AM</h3>
+        </div>
+        <div class="session">
+            <h3>Session 1: 9:10 - 10:40 AM</h3>
+            <p><strong>Topic:</strong> Monitoring and Visibility of IBR in Electric Distribution Systems</p>
+            <p>This session will focus on the system modeling, importance of monitoring and visibility in distribution systems with integrated IBR. Participants will explore the latest advancements in real-time monitoring to ensure the resiliency and security of the grid.</p>
+        </div>
+        <div class="session">
+            <h3>Session 2: 10:50 - 12:20 PM</h3>
+            <p><strong>Topic:</strong> Data-Driven/ML for Cyber Anomalies Detection and Classification</p>
+            <p>In this session, data-driven approaches and machine learning techniques will be discussed for detecting cyber anomalies and threats in distribution systems. The session will also cover classification of data anomalies and events.</p>
+        </div>
+        <div class="session">
+            <h3>Session 3: 1:30 - 3:00 PM</h3>
+            <p><strong>Topic:</strong> Distributed Optimization and Control</p>
+            <p>In this session, data-driven approaches and machine learning-assisted distributed optimization techniques will be discussed for control at the edge and for enabling the resilience of IBR-integrated networks.</p>
+        </div>
+        <div class="session">
+            <h3>Session 4: 3:10 - 4:40 PM</h3>
+            <p><strong>Topic:</strong> Data-Driven Mitigation for Cyber-resilient Distribution Systems</p>
+            <p>In this session, techniques for mitigating the impact of cyber threats will be discussed in distribution systems and to enhance the resilience of IBR-integrated networks.</p>
+        </div>
+        <div class="session">
+            <h3>Closing Remarks: 4:40 - 4:50 PM</h3>
+        </div>
+
+        <h2>Who Should Attend</h2>
+        <p>This workshop is ideal for professionals, researchers, and academics involved in the fields of power systems, cybersecurity, optimization, data science, machine learning, digital automation, and related disciplines. Whether you are looking to deepen your knowledge or collaborate with others in the industry, this workshop offers valuable insights and practical strategies for enabling cyber-resilient distribution systems.</p>
+
+        <h2>Registration</h2>
+        <p>Stay tuned for registration details and additional information on how to participate in this important event. Don't miss the opportunity to engage with leading experts and advance your understanding of cyber resilience in modern distribution systems.</p>
+
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>For more information or inquiries about the workshop, please contact:</p>
+            <p><a href="mailto:aanna@mit.edu">Anuradha M Annaswamy</a></p>
+            <p><a href="mailto:anurag.srivastava@mail.wvu.edu">Anurag Srivastava</a></p>
+        </div>
+    </div>
+</body>
+</html>
