@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Smart Grid REsiliency and Analytics Lab</title>
+<meta name="robots" content="max-image-preview:large">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="Smart Grid REsiliency and Analytics Lab &raquo; Feed" href="./feed/index.html">
+<link rel="alternate" type="application/rss+xml" title="Smart Grid REsiliency and Analytics Lab &raquo; Comments Feed" href="./comments/feed/index.html">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":".\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="sr7css-css" href="./wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.17" type="text/css" media="all">
+<link rel="stylesheet" id="engitech-fonts-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CNunito+Sans%3A200%2C200i%2C300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="./wp-content/themes/engitech/css/bootstrap.css?ver=4.0" type="text/css" media="all">
+<link rel="stylesheet" id="engitech-awesome-font-css" href="./wp-content/themes/engitech/css/font-awesome.min.css?ver=6.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="engitech-flaticon-font-css" href="./wp-content/themes/engitech/css/flaticon.css?ver=6.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="slick-slider-css" href="./wp-content/themes/engitech/css/slick.css?ver=6.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="slick-theme-css" href="./wp-content/themes/engitech/css/slick-theme.css?ver=6.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="./wp-content/themes/engitech/css/magnific-popup.css?ver=6.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="engitech-style-css" href="./wp-content/themes/engitech/style.css?ver=1.8.6" type="text/css" media="all">
+<link rel="stylesheet" id="simple-likes-public-css-css" href="./wp-content/themes/engitech/inc/backend/css/simple-likes-public.css?ver=6.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="engitech-preload-css" href="./wp-content/themes/engitech/css/royal-preload.css?ver=6.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="engitech-child-style-css" href="./wp-content/themes/engitech-child/style.css?ver=1.1" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="./wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-8-css" href="./wp-content/uploads/elementor/css/post-8.css?ver=1740996355" type="text/css" media="all">
+<link rel="stylesheet" id="widget-heading-css" href="./wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-text-editor-css" href="./wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="swiper-css" href="./wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" type="text/css" media="all">
+<link rel="stylesheet" id="e-swiper-css" href="./wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-image-carousel-css" href="./wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-divider-css" href="./wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-image-css" href="./wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-image-box-css" href="./wp-content/plugins/elementor/assets/css/widget-image-box.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-spacer-css" href="./wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-accordion-css" href="./wp-content/plugins/elementor/assets/css/widget-accordion.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-5500-css" href="./wp-content/uploads/elementor/css/post-5500.css?ver=1740996355" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.2" type="text/css" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script type="text/javascript" src="./wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.17" id="tp-tools-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="./wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.17" id="sr7-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="simple-likes-public-js-js-extra">
+/* <![CDATA[ */
+var simpleLikes = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","like":"Like","unlike":"Unlike"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wp-content/themes/engitech/inc/backend/js/simple-likes-public.js?ver=0.5" id="simple-likes-public-js-js"></script>
+<link rel="https://api.w.org/" href="./wp-json/index.html">
+<link rel="alternate" title="JSON" type="application/json" href="./wp-json/wp/v2/pages/5500/index.html">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7.2">
+<link rel="canonical" href="./index.html">
+<link rel="shortlink" href="./index.html">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F%2F#038;format=xml">
+<meta name="generator" content="Elementor 3.27.6; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}</style>
+			<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<meta name="generator" content="Powered by Slider Revolution 6.7.17 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<link rel="icon" href="./wp-content/uploads/2025/02/cropped-Asset-15-32x32.png" sizes="32x32">
+<link rel="icon" href="./wp-content/uploads/2025/02/cropped-Asset-15-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./wp-content/uploads/2025/02/cropped-Asset-15-180x180.png">
+<meta name="msapplication-TileImage" content="./wp-content/uploads/2025/02/cropped-Asset-15-270x270.png">
+<script>
+	window._tpt			??= {};
+	window.SR7			??= {};
+	_tpt.R				??= {};
+	_tpt.R.fonts		??= {};
+	_tpt.R.fonts.customFonts??= {};
+	SR7.devMode			=  false;
+	SR7.F 				??= {};
+	SR7.G				??= {};
+	SR7.LIB				??= {};
+	SR7.E				??= {};
+	SR7.E.gAddons		??= {};
+	SR7.E.php 			??= {};
+	SR7.E.nonce			= '098e4364dc';
+	SR7.E.ajaxurl		= './/wp-admin/admin-ajax.php';
+	SR7.E.resturl		= './/wp-json/';
+	SR7.E.slug_path		= 'revslider/revslider.php';
+	SR7.E.slug			= 'revslider';
+	SR7.E.plugin_url	= './/wp-content/plugins/revslider/';
+	SR7.E.wp_plugin_url = './/wp-content/plugins/';
+	SR7.E.revision		= '6.7.17';
+	SR7.E.fontBaseUrl	= '//fonts.googleapis.com/css2?family=';
+	SR7.G.breakPoints 	= [1240,1024,778,480];
+	SR7.E.modules 		= ['module','page','slide','layer','draw','animate','srtools','canvas','defaults','carousel','navigation','media','modifiers','migration'];
+	SR7.E.libs 			= ['WEBGL'];
+	SR7.E.css 			= ['csslp','cssbtns','cssfilters','cssnav','cssmedia'];
+	SR7.E.resources		= {};
+	SR7.JSON			??= {};
+/*! Slider Revolution 7.0 - Page Processor */
+!function(){"use strict";window.SR7??={},window._tpt??={},SR7.version="Slider Revolution 6.7.16",_tpt.getWinDim=function(t){_tpt.screenHeightWithUrlBar??=window.innerHeight;let e=SR7.F?.modal?.visible&&SR7.M[SR7.F.module.getIdByAlias(SR7.F.modal.requested)];_tpt.scrollBar=window.innerWidth!==document.documentElement.clientWidth||e&&window.innerWidth!==e.c.module.clientWidth,_tpt.winW=window.innerWidth-(_tpt.scrollBar||"prepare"==t?_tpt.scrollBarW??_tpt.mesureScrollBar():0),_tpt.winH=window.innerHeight,_tpt.winWAll=document.documentElement.clientWidth},_tpt.getResponsiveLevel=function(t,e){SR7.M[e];return _tpt.closestGE(t,_tpt.winWAll)},_tpt.mesureScrollBar=function(){let t=document.createElement("div");return t.className="RSscrollbar-measure",t.style.width="100px",t.style.height="100px",t.style.overflow="scroll",t.style.position="absolute",t.style.top="-9999px",document.body.appendChild(t),_tpt.scrollBarW=t.offsetWidth-t.clientWidth,document.body.removeChild(t),_tpt.scrollBarW},_tpt.loadCSS=async function(t,e,s){return s?_tpt.R.fonts.required[e].status=1:(_tpt.R[e]??={},_tpt.R[e].status=1),new Promise(((n,i)=>{if(_tpt.isStylesheetLoaded(t))s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n();else{const l=document.createElement("link");l.rel="stylesheet";let o="text",r="css";l["type"]=o+"/"+r,l.href=t,l.onload=()=>{s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n()},l.onerror=()=>{s?_tpt.R.fonts.required[e].status=3:_tpt.R[e].status=3,i(new Error(`Failed to load CSS: ${t}`))},document.head.appendChild(l)}}))},_tpt.addContainer=function(t){const{tag:e="div",id:s,class:n,datas:i,textContent:l,iHTML:o}=t,r=document.createElement(e);if(s&&""!==s&&(r.id=s),n&&""!==n&&(r.className=n),i)for(const[t,e]of Object.entries(i))"style"==t?r.style.cssText=e:r.setAttribute(`data-${t}`,e);return l&&(r.textContent=l),o&&(r.innerHTML=o),r},_tpt.collector=function(){return{fragment:new DocumentFragment,add(t){var e=_tpt.addContainer(t);return this.fragment.appendChild(e),e},append(t){t.appendChild(this.fragment)}}},_tpt.isStylesheetLoaded=function(t){let e=t.split("?")[0];return Array.from(document.querySelectorAll('link[rel="stylesheet"], link[rel="preload"]')).some((t=>t.href.split("?")[0]===e))},_tpt.preloader={requests:new Map,preloaderTemplates:new Map,show:function(t,e){if(!e||!t)return;const{type:s,color:n}=e;if(s<0||"off"==s)return;const i=`preloader_${s}`;let l=this.preloaderTemplates.get(i);l||(l=this.build(s,n),this.preloaderTemplates.set(i,l)),this.requests.has(t)||this.requests.set(t,{count:0});const o=this.requests.get(t);clearTimeout(o.timer),o.count++,1===o.count&&(o.timer=setTimeout((()=>{o.preloaderClone=l.cloneNode(!0),o.anim&&o.anim.kill(),void 0!==_tpt.gsap?o.anim=_tpt.gsap.fromTo(o.preloaderClone,1,{opacity:0},{opacity:1}):o.preloaderClone.classList.add("sr7-fade-in"),t.appendChild(o.preloaderClone)}),150))},hide:function(t){if(!this.requests.has(t))return;const e=this.requests.get(t);e.count--,e.count<0&&(e.count=0),e.anim&&e.anim.kill(),0===e.count&&(clearTimeout(e.timer),e.preloaderClone&&(e.preloaderClone.classList.remove("sr7-fade-in"),e.anim=_tpt.gsap.to(e.preloaderClone,.3,{opacity:0,onComplete:function(){e.preloaderClone.remove()}})))},state:function(t){if(!this.requests.has(t))return!1;return this.requests.get(t).count>0},build:(t,e="#ffffff",s="")=>{if(t<0||"off"===t)return null;const n=parseInt(t);if(t="prlt"+n,isNaN(n))return null;if(_tpt.loadCSS(SR7.E.plugin_url+"public/css/preloaders/t"+n+".css","preloader_"+t),isNaN(n)||n<6){const i=`background-color:${e}`,l=1===n||2==n?i:"",o=3===n||4==n?i:"",r=_tpt.collector();["dot1","dot2","bounce1","bounce2","bounce3"].forEach((t=>r.add({tag:"div",class:t,datas:{style:o}})));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`,datas:{style:l}});return r.append(d),d}{let i={};if(7===n){let t;e.startsWith("#")?(t=e.replace("#",""),t=`rgba(${parseInt(t.substring(0,2),16)}, ${parseInt(t.substring(2,4),16)}, ${parseInt(t.substring(4,6),16)}, `):e.startsWith("rgb")&&(t=e.slice(e.indexOf("(")+1,e.lastIndexOf(")")).split(",").map((t=>t.trim())),t=`rgba(${t[0]}, ${t[1]}, ${t[2]}, `),t&&(i.style=`border-top-color: ${t}0.65); border-bottom-color: ${t}0.15); border-left-color: ${t}0.65); border-right-color: ${t}0.15)`)}else 12===n&&(i.style=`background:${e}`);const l=[10,0,4,2,5,9,0,4,4,2][n-6],o=_tpt.collector(),r=o.add({tag:"div",class:"sr7-prl-inner",datas:i});Array.from({length:l}).forEach((()=>r.appendChild(o.add({tag:"span",datas:{style:`background:${e}`}}))));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`});return o.append(d),d}}},SR7.preLoader={show:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.show(e||SR7.M[t].c.module,SR7.M[t]?.settings?.pLoader??{color:"#fff",type:10})},hide:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.hide(e||SR7.M[t].c.module)},state:(t,e)=>_tpt.preloader.state(e||SR7.M[t].c.module)},_tpt.prepareModuleHeight=function(t){window.SR7.M??={},window.SR7.M[t.id]??={},"ignore"==t.googleFont&&(SR7.E.ignoreGoogleFont=!0);let e=window.SR7.M[t.id];if(null==_tpt.scrollBarW&&_tpt.mesureScrollBar(),e.c??={},e.states??={},e.settings??={},e.settings.size??={},t.fixed&&(e.settings.fixed=!0),e.c.module=document.getElementById(t.id),e.c.adjuster=e.c.module.getElementsByTagName("sr7-adjuster")[0],e.c.content=e.c.module.getElementsByTagName("sr7-content")[0],"carousel"==t.type&&(e.c.carousel=e.c.content.getElementsByTagName("sr7-carousel")[0]),null==e.c.module||null==e.c.module)return;t.plType&&t.plColor&&(e.settings.pLoader={type:t.plType,color:t.plColor}),void 0!==t.plType&&"off"!==t.plType&&SR7.preLoader.show(t.id,e.c.module),_tpt.winW||_tpt.getWinDim("prepare"),_tpt.getWinDim();let s=""+e.c.module.dataset?.modal;"modal"==s||"true"==s||"undefined"!==s&&"false"!==s||(e.settings.size.fullWidth=t.size.fullWidth,e.LEV??=_tpt.getResponsiveLevel(window.SR7.G.breakPoints,t.id),t.vpt=_tpt.fillArray(t.vpt,5),e.settings.vPort=t.vpt[e.LEV],void 0!==t.el&&"720"==t.el[4]&&t.gh[4]!==t.el[4]&&"960"==t.el[3]&&t.gh[3]!==t.el[3]&&"768"==t.el[2]&&t.gh[2]!==t.el[2]&&delete t.el,e.settings.size.height=null==t.el||null==t.el[e.LEV]||0==t.el[e.LEV]||"auto"==t.el[e.LEV]?_tpt.fillArray(t.gh,5,-1):_tpt.fillArray(t.el,5,-1),e.settings.size.width=_tpt.fillArray(t.gw,5,-1),e.settings.size.minHeight=_tpt.fillArray(t.mh??[0],5,-1),e.cacheSize={fullWidth:e.settings.size?.fullWidth,fullHeight:e.settings.size?.fullHeight},void 0!==t.off&&(t.off?.t&&(e.settings.size.m??={})&&(e.settings.size.m.t=t.off.t),t.off?.b&&(e.settings.size.m??={})&&(e.settings.size.m.b=t.off.b),t.off?.l&&(e.settings.size.p??={})&&(e.settings.size.p.l=t.off.l),t.off?.r&&(e.settings.size.p??={})&&(e.settings.size.p.r=t.off.r),e.offsetPrepared=!0),_tpt.updatePMHeight(t.id,t,!0))},_tpt.updatePMHeight=(t,e,s)=>{let n=SR7.M[t];var i=n.settings.size.fullWidth?_tpt.winW:n.c.module.parentNode.offsetWidth;i=0===i||isNaN(i)?_tpt.winW:i;let l=n.settings.size.width[n.LEV]||n.settings.size.width[n.LEV++]||n.settings.size.width[n.LEV--]||i,o=n.settings.size.height[n.LEV]||n.settings.size.height[n.LEV++]||n.settings.size.height[n.LEV--]||0,r=n.settings.size.minHeight[n.LEV]||n.settings.size.minHeight[n.LEV++]||n.settings.size.minHeight[n.LEV--]||0;if(o="auto"==o?0:o,o=parseInt(o),"carousel"!==e.type&&(i-=parseInt(e.onw??0)||0),n.MP=!n.settings.size.fullWidth&&i<l||_tpt.winW<l?Math.min(1,i/l):1,e.size.fullScreen||e.size.fullHeight){let t=parseInt(e.fho)||0,s=(""+e.fho).indexOf("%")>-1;e.newh=_tpt.winH-(s?_tpt.winH*t/100:t)}else e.newh=n.MP*Math.max(o,r);if(e.newh+=(parseInt(e.onh??0)||0)+(parseInt(e.carousel?.pt)||0)+(parseInt(e.carousel?.pb)||0),void 0!==e.slideduration&&(e.newh=Math.max(e.newh,parseInt(e.slideduration)/3)),e.shdw&&_tpt.buildShadow(e.id,e),n.c.adjuster.style.height=e.newh+"px",n.c.module.style.height=e.newh+"px",n.c.content.style.height=e.newh+"px",n.states.heightPrepared=!0,n.dims??={},n.dims.moduleRect=n.c.module.getBoundingClientRect(),n.c.content.style.left="-"+n.dims.moduleRect.left+"px",!n.settings.size.fullWidth)return s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)})),void _tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0);_tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0),requestAnimationFrame((function(){s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)}))})),n.earlyResizerFunction||(n.earlyResizerFunction=function(){requestAnimationFrame((function(){_tpt.getWinDim(),_tpt.moduleDefaults(e.id,e),_tpt.updateSlideBg(t,!0)}))},window.addEventListener("resize",n.earlyResizerFunction))},_tpt.buildShadow=function(t,e){let s=SR7.M[t];null==s.c.shadow&&(s.c.shadow=document.createElement("sr7-module-shadow"),s.c.shadow.classList.add("sr7-shdw-"+e.shdw),s.c.content.appendChild(s.c.shadow))},_tpt.bgStyle=async(t,e,s,n,i)=>{const l=SR7.M[t];if((e=e??l.settings).fixed&&!l.c.module.classList.contains("sr7-top-fixed")&&(l.c.module.classList.add("sr7-top-fixed"),l.c.module.style.position="fixed",l.c.module.style.width="100%",l.c.module.style.top="0px",l.c.module.style.left="0px",l.c.module.style.pointerEvents="none",l.c.module.style.zIndex=5e3,l.c.content.style.pointerEvents="none"),null==l.c.bgcanvas){let t=document.createElement("sr7-module-bg"),o=!1;if("string"==typeof e?.bg?.color&&e?.bg?.color.includes("{"))if(_tpt.gradient&&_tpt.gsap)e.bg.color=_tpt.gradient.convert(e.bg.color);else try{let t=JSON.parse(e.bg.color);(t?.orig||t?.string)&&(e.bg.color=JSON.parse(e.bg.color))}catch(t){return}let r="string"==typeof e?.bg?.color?e?.bg?.color||"transparent":e?.bg?.color?.string??e?.bg?.color?.orig??e?.bg?.color?.color??"transparent";if(t.style["background"+(String(r).includes("grad")?"":"Color")]=r,("transparent"!==r||i)&&(o=!0),l.offsetPrepared&&(t.style.visibility="hidden"),e?.bg?.image?.src&&(t.style.backgroundImage=`url(${e?.bg?.image.src})`,t.style.backgroundSize=""==(e.bg.image?.size??"")?"cover":e.bg.image.size,t.style.backgroundPosition=e.bg.image.position,t.style.backgroundRepeat=""==e.bg.image.repeat||null==e.bg.image.repeat?"no-repeat":e.bg.image.repeat,o=!0),!o)return;l.c.bgcanvas=t,e.size.fullWidth?t.style.width=_tpt.winW-(s&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":n&&(t.style.width=l.c.module.offsetWidth+"px"),e.sbt?.use?l.c.content.appendChild(l.c.bgcanvas):l.c.module.appendChild(l.c.bgcanvas)}l.c.bgcanvas.style.height=void 0!==e.newh?e.newh+"px":("carousel"==e.type?l.dims.module.h:l.dims.content.h)+"px",l.c.bgcanvas.style.left=!s&&e.sbt?.use||l.c.bgcanvas.closest("SR7-CONTENT")?"0px":"-"+(l?.dims?.moduleRect?.left??0)+"px"},_tpt.updateSlideBg=function(t,e){const s=SR7.M[t];let n=s.settings;s?.c?.bgcanvas&&(n.size.fullWidth?s.c.bgcanvas.style.width=_tpt.winW-(e&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":preparing&&(s.c.bgcanvas.style.width=s.c.module.offsetWidth+"px"))},_tpt.moduleDefaults=(t,e)=>{let s=SR7.M[t];null!=s&&null!=s.c&&null!=s.c.module&&(s.dims??={},s.dims.moduleRect=s.c.module.getBoundingClientRect(),s.c.content.style.left="-"+s.dims.moduleRect.left+"px",s.c.content.style.width=_tpt.winW-_tpt.scrollBarW+"px","carousel"==e.type&&(s.c.module.style.overflow="visible"),_tpt.bgStyle(t,e,window.innerWidth==_tpt.winW))},_tpt.getOffset=t=>{var e=t.getBoundingClientRect(),s=window.pageXOffset||document.documentElement.scrollLeft,n=window.pageYOffset||document.documentElement.scrollTop;return{top:e.top+n,left:e.left+s}},_tpt.fillArray=function(t,e){let s,n;t=Array.isArray(t)?t:[t];let i=Array(e),l=t.length;for(n=0;n<t.length;n++)i[n+(e-l)]=t[n],null==s&&"#"!==t[n]&&(s=t[n]);for(let t=0;t<e;t++)void 0!==i[t]&&"#"!=i[t]||(i[t]=s),s=i[t];return i},_tpt.closestGE=function(t,e){let s=Number.MAX_VALUE,n=-1;for(let i=0;i<t.length;i++)t[i]-1>=e&&t[i]-1-e<s&&(s=t[i]-1-e,n=i);return++n}}();</script>
+		<style type="text/css" id="wp-custom-css">.header-clone{
+	height: 100px!important;
+}
+.elementor-widget-wrap>.elementor-element.btn-inline{
+	display: inline-block;
+	width: auto;
+}
+.elementor-3872 .elementor-element.elementor-element-4cff60df .elementor-icon-list-item span, .elementor-3872 .elementor-element.elementor-element-5e3bed1f .elementor-icon-list-item span {
+    line-height: 16px;
+}
+
+.page-id-3872 #back-to-top{
+	color: #656AE5;
+}
+.page-id-4858 #back-to-top{
+	color: #53E79C;
+}
+.page-id-4899 #back-to-top{
+	color: #35d3c9;
+}</style>
+		<style id="kirki-inline-styles">.page-header{background-image:url("./wp-content/uploads/2024/08/bg-pheader.jpg");}#royal_preloader.royal_preloader_logo .royal_preloader_percentage{font-family:Roboto;font-size:13px;font-weight:400;letter-spacing:2px;line-height:40px;text-align:center;text-transform:none;}@media (max-width: 767px){}@media (min-width: 768px) and (max-width: 1024px){}@media (min-width: 1024px){}/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmZiArmlw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmQiArmlw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmYiArmlw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmXiArmlw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* math */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVnoiArmlw.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVn6iArmlw.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmbiArmlw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiArmlw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmZiArmlw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmQiArmlw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmYiArmlw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmXiArmlw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* math */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVnoiArmlw.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVn6iArmlw.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmbiArmlw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiArmlw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmZiArmlw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmQiArmlw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmYiArmlw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmXiArmlw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* math */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVnoiArmlw.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVn6iArmlw.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmbiArmlw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiArmlw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(./wp-content/fonts/roboto/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+</head>
+
+<body class="home page-template-default page page-id-5500 royal_preloader elementor-default elementor-kit-8 elementor-page elementor-page-5500 engitech-theme-ver-1.8.6 wordpress-version-6.7.2">
+<div id="royal_preloader" data-width="175" data-height="111" data-url=".//wp-content/uploads/2025/02/Asset-18.png" data-color="#0a0f2b" data-bgcolor="#fff"></div>
+<div id="page" class="site">
+	<!-- #site-header-open -->
+<header id="site-header" class="site-header header-static">
+
+    <!-- #header-desktop-open -->
+    <div class="header-desktop">		<div data-elementor-type="wp-post" data-elementor-id="5457" class="elementor elementor-5457">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-391fcb08 elementor-section-full_width is-fixed ot-traditional elementor-section-height-default elementor-section-height-default" data-id="391fcb08" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6a630b23 ot-column-items-center ot-flex-column-vertical" data-id="6a630b23" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7501d0fb elementor-widget elementor-widget-ilogo" data-id="7501d0fb" data-element_type="widget" data-widget_type="ilogo.default">
+				<div class="elementor-widget-container">
+								
+	    	<div class="the-logo">
+				<a href="./index.html">
+					<img src="./wp-content/uploads/2023/01/Asset-1.png" alt="Smart Grid REsiliency and Analytics Lab">
+				</a>			        
+		    </div>
+		    
+	    				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6fedf37 ot-flex-column-vertical" data-id="6fedf37" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5d658bd4 elementor-widget elementor-widget-imenu" data-id="5d658bd4" data-element_type="widget" data-widget_type="imenu.default">
+				<div class="elementor-widget-container">
+								<nav id="site-navigation" class="main-navigation no-line no-under-line">			
+				<ul id="primary-menu" class="menu">
+<li id="menu-item-5605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5605"><a href="./research-interests-and-grants/index.html">Research Interests &#038; Grants</a></li>
+<li id="menu-item-5602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5602"><a href="./awards-and-honors/index.html">Awards &#038; Honors</a></li>
+<li id="menu-item-5604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5604"><a href="./publications/index.html">Publications</a></li>
+<li id="menu-item-5611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5611">
+<a href="#">Research Group</a>
+<ul class="sub-menu">
+	<li id="menu-item-5713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5713">
+<a href="#">Director</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5596"><a href="./director/index.html">Biography &#038; CV</a></li>
+		<li id="menu-item-5600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5600"><a href="./teaching/index.html">Teaching</a></li>
+		<li id="menu-item-5601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5601"><a href="./professional-and-outreach-activities/index.html">Professional And Outreach Activities</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5839"><a href="./existing/index.html">Existing Research Group</a></li>
+	<li id="menu-item-5594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5594"><a href="./alumni/index.html">Alumni</a></li>
+</ul>
+</li>
+<li id="menu-item-5603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5603"><a href="./news/index.html">News</a></li>
+<li id="menu-item-5612" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5612">
+<a href="#">More</a>
+<ul class="sub-menu">
+	<li id="menu-item-5597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5597"><a href="./workshop-conference/index.html">Workshop / Conference</a></li>
+	<li id="menu-item-5598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5598"><a href="./useful-links/index.html">Useful Links</a></li>
+</ul>
+</li>
+</ul>			</nav>
+	    				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-af3f3c6 ot-flex-column-vertical" data-id="af3f3c6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ef2cac1 elementor-widget elementor-widget-spacer" data-id="ef2cac1" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d8952c8 elementor-align-center elementor-widget elementor-widget-button" data-id="d8952c8" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="./contact-us/index.html">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Contact</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>    <!-- #header-desktop-close -->
+
+    <!-- #header-mobile-open -->
+    <div class="header-mobile">		<div data-elementor-type="wp-post" data-elementor-id="5458" class="elementor elementor-5458">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-4e0f63a7 ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e0f63a7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2681673d ot-flex-column-vertical" data-id="2681673d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-15e2ab6b elementor-widget elementor-widget-ilogo" data-id="15e2ab6b" data-element_type="widget" data-widget_type="ilogo.default">
+				<div class="elementor-widget-container">
+								
+	    	<div class="the-logo">
+				<a href="./index.html">
+					<img src="./wp-content/uploads/2023/01/Asset-1.png" alt="Smart Grid REsiliency and Analytics Lab">
+				</a>			        
+		    </div>
+		    
+	    				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-604f4fb1 ot-flex-column-horizontal" data-id="604f4fb1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6c490682 elementor-widget elementor-widget-imenu_mobile" data-id="6c490682" data-element_type="widget" data-widget_type="imenu_mobile.default">
+				<div class="elementor-widget-container">
+								
+	    	<div class="octf-menu-mobile octf-cta-header">
+				<div id="mmenu-toggle" class="mmenu-toggle">
+					<button></button>
+				</div>
+				<div class="site-overlay mmenu-overlay"></div>
+				<div id="mmenu-wrapper" class="mmenu-wrapper on-right">
+					<div class="mmenu-inner">
+						<a class="mmenu-close" href="#"><i class="flaticon-right-arrow-1"></i></a>
+						<div class="mobile-nav">
+							<ul id="menu-mobile" class="mobile_mainmenu none-style">
+<li id="menu-item-6260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6260"><a href="./research-interests-and-grants/index.html">Research Interests And Grants</a></li>
+<li id="menu-item-6258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6258"><a href="./awards-and-honors/index.html">Awards and Honors</a></li>
+<li id="menu-item-6259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6259"><a href="./publications/index.html">Publications</a></li>
+<li id="menu-item-6263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6263">
+<a href="#">Research Group</a>
+<ul class="sub-menu">
+	<li id="menu-item-6250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6250">
+<a href="./director/index.html">Director</a>
+	<ul class="sub-menu">
+		<li id="menu-item-6253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6253"><a href="./biography-and-cv/index.html">Biography And CV</a></li>
+		<li id="menu-item-6254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6254"><a href="./teaching/index.html">Teaching</a></li>
+		<li id="menu-item-6255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6255"><a href="./professional-and-outreach-activities/index.html">Professional And Outreach Activities</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6249"><a href="./existing/index.html">Existing Research Group</a></li>
+	<li id="menu-item-6248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6248"><a href="./alumni/index.html">Alumni</a></li>
+</ul>
+</li>
+<li id="menu-item-6257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6257"><a href="./news/index.html">News</a></li>
+<li id="menu-item-6261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6261">
+<a href="#">More</a>
+<ul class="sub-menu">
+	<li id="menu-item-6251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6251"><a href="./workshop-conference/index.html">Workshop / Conference</a></li>
+	<li id="menu-item-6252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6252"><a href="./useful-links/index.html">Useful Links</a></li>
+</ul>
+</li>
+<li id="menu-item-6256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6256"><a href="./contact-us/index.html">Contact Us</a></li>
+</ul>						</div>   	
+					</div>   	
+				</div>
+			</div>
+	    				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>    <!-- #header-mobile-close -->
+
+</header>
+<!-- #site-header-close -->
+<!-- #side-panel-open -->
+    <div id="side-panel" class="side-panel ">
+        <a href="#" class="side-panel-close"><i class="flaticon-close"></i></a>
+        <div class="side-panel-block">
+            		<div data-elementor-type="wp-post" data-elementor-id="2856" class="elementor elementor-2856">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-97bff10 ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97bff10" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3b0fcfbf ot-flex-column-vertical" data-id="3b0fcfbf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5b0ca0a2 elementor-widget elementor-widget-ilogo" data-id="5b0ca0a2" data-element_type="widget" data-widget_type="ilogo.default">
+				<div class="elementor-widget-container">
+								
+	    	<div class="the-logo">
+				<a href="./index.html">
+					<img src="https://engitech.s3.amazonaws.com/images/logo.svg" alt="Smart Grid REsiliency and Analytics Lab">
+				</a>			        
+		    </div>
+		    
+	    				</div>
+				</div>
+				<div class="elementor-element elementor-element-10eebe7 elementor-widget elementor-widget-text-editor" data-id="10eebe7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Over 10 years we help companies reach their financial and branding goals. Engitech is a values-driven technology agency dedicated.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-36f1ca99 elementor-widget elementor-widget-heading" data-id="36f1ca99" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Gallery</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a841864 elementor-widget elementor-widget-image-gallery" data-id="a841864" data-element_type="widget" data-widget_type="image-gallery.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-image-gallery">
+			<div id="gallery-1" class="gallery galleryid-5500 gallery-columns-3 gallery-size-engitech-portfolio-thumbnail-grid">
+<figure class="gallery-item">
+			<div class="gallery-icon portrait">
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a841864" data-elementor-lightbox-title="project11" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg5NiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9zZ3JlYWxcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMTlcLzExXC9wcm9qZWN0MTEuanBnIiwic2xpZGVzaG93IjoiYTg0MTg2NCJ9" href="./wp-content/uploads/2019/11/project11.jpg"><img fetchpriority="high" width="619" height="720" src="./wp-content/uploads/2019/11/project11.jpg" class="attachment-engitech-portfolio-thumbnail-grid size-engitech-portfolio-thumbnail-grid" alt="" decoding="async"></a>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon portrait">
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a841864" data-elementor-lightbox-title="project10" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg5NSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9zZ3JlYWxcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMTlcLzExXC9wcm9qZWN0MTAuanBnIiwic2xpZGVzaG93IjoiYTg0MTg2NCJ9" href="./wp-content/uploads/2019/11/project10.jpg"><img width="533" height="720" src="./wp-content/uploads/2019/11/project10.jpg" class="attachment-engitech-portfolio-thumbnail-grid size-engitech-portfolio-thumbnail-grid" alt="" decoding="async"></a>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon portrait">
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a841864" data-elementor-lightbox-title="project4" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjM2NywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9zZ3JlYWxcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMTlcLzExXC9wcm9qZWN0NC5qcGciLCJzbGlkZXNob3ciOiJhODQxODY0In0%3D" href="./wp-content/uploads/2019/11/project4.jpg"><img width="592" height="720" src="./wp-content/uploads/2019/11/project4.jpg" class="attachment-engitech-portfolio-thumbnail-grid size-engitech-portfolio-thumbnail-grid" alt="" decoding="async"></a>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon portrait">
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a841864" data-elementor-lightbox-title="project6" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4MiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9zZ3JlYWxcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMTlcLzExXC9wcm9qZWN0Ni5qcGciLCJzbGlkZXNob3ciOiJhODQxODY0In0%3D" href="./wp-content/uploads/2019/11/project6.jpg"><img loading="lazy" width="619" height="720" src="./wp-content/uploads/2019/11/project6.jpg" class="attachment-engitech-portfolio-thumbnail-grid size-engitech-portfolio-thumbnail-grid" alt="" decoding="async"></a>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon portrait">
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a841864" data-elementor-lightbox-title="project2" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg3OSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9zZ3JlYWxcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMTlcLzExXC9wcm9qZWN0Mi5qcGciLCJzbGlkZXNob3ciOiJhODQxODY0In0%3D" href="./wp-content/uploads/2019/11/project2.jpg"><img loading="lazy" width="665" height="720" src="./wp-content/uploads/2019/11/project2.jpg" class="attachment-engitech-portfolio-thumbnail-grid size-engitech-portfolio-thumbnail-grid" alt="" decoding="async"></a>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon landscape">
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a841864" data-elementor-lightbox-title="project1" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjM2MywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9zZ3JlYWxcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMTlcLzExXC9wcm9qZWN0MS5qcGciLCJzbGlkZXNob3ciOiJhODQxODY0In0%3D" href="./wp-content/uploads/2019/11/project1.jpg"><img loading="lazy" width="720" height="564" src="./wp-content/uploads/2019/11/project1.jpg" class="attachment-engitech-portfolio-thumbnail-grid size-engitech-portfolio-thumbnail-grid" alt="" decoding="async"></a>
+			</div></figure>
+		</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5f98745a elementor-widget elementor-widget-heading" data-id="5f98745a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Contacts</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-101d8395 elementor-position-left elementor-vertical-align-middle elementor-view-default elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="101d8395" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewbox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+				
+									<p class="elementor-icon-box-description">
+						411 University St, Seattle, USA					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-3c6a17b7 elementor-position-left elementor-vertical-align-middle elementor-view-default elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="3c6a17b7" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-envelope" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+				
+									<p class="elementor-icon-box-description">
+						engitech@oceanthemes.net					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-38207ad elementor-position-left elementor-vertical-align-middle elementor-view-default elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="38207ad" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-alt" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+				
+									<p class="elementor-icon-box-description">
+						+1 -800-456-478-23					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-15ddcfde elementor-shape-circle elementor-grid-4 e-grid-align-left elementor-widget elementor-widget-social-icons" data-id="15ddcfde" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-float elementor-repeater-item-a24d46e" href="#" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg class="e-font-icon-svg e-fab-twitter" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-float elementor-repeater-item-4261f62" href="#" target="_blank">
+						<span class="elementor-screen-only">Facebook-f</span>
+						<svg class="e-font-icon-svg e-fab-facebook-f" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest-p elementor-animation-float elementor-repeater-item-b0dbeaa" href="#" target="_blank">
+						<span class="elementor-screen-only">Pinterest-p</span>
+						<svg class="e-font-icon-svg e-fab-pinterest-p" viewbox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-float elementor-repeater-item-6b456a7" href="#" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+			
+        </div>
+    </div>
+<!-- #side-panel-close -->
+	<div id="content" class="site-content">
+	
+    		<div data-elementor-type="wp-page" data-elementor-id="5500" class="elementor elementor-5500">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-6799be7d ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6799be7d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-751c1a92 ot-flex-column-vertical" data-id="751c1a92" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1da04989 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1da04989" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">SMART GRID RESILIENCY AND ANALYTICS LAB</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-12539389 elementor-widget elementor-widget-text-editor" data-id="12539389" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p align="justify">SG-REAL specializes in the intersection of power grid technology and cybersecurity, focusing on safeguarding
+critical energy infrastructure.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-35e4565 elementor-widget elementor-widget-ibutton" data-id="35e4565" data-element_type="widget" data-widget_type="ibutton.default">
+				<div class="elementor-widget-container">
+							<div class="ot-button">
+			<a href="./research-interests-and-grants/index.html" class="octf-btn octf-btn-primary">Learn more about our research</a>
+	    </div>
+	    				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-69a20b4c ot-flex-column-vertical" data-id="69a20b4c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a1366d3 elementor-pagination-position-inside elementor-widget elementor-widget-image-carousel" data-id="a1366d3" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-image-carousel-wrapper swiper" role="region" aria-roledescription="carousel" aria-label="Image Carousel" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper swiper-image-stretch" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 3"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./wp-content/uploads/2024/08/professor_anurag_lab.jpg" alt="professor_anurag_lab"></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./wp-content/uploads/2024/08/grp_photo.jpg" alt="grp_photo"></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./wp-content/uploads/2024/08/control_center.jpg" alt="control_center"></figure></div>			</div>
+							
+									<div class="swiper-pagination"></div>
+									</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-afa55e3 ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="afa55e3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0431f79 ot-flex-column-vertical" data-id="0431f79" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0f4ad34 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="0f4ad34" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-43f92d11 elementor-reverse-tablet elementor-reverse-mobile ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="43f92d11" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3e4fb1eb ot-flex-column-vertical" data-id="3e4fb1eb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3a84b604 elementor-widget elementor-widget-image" data-id="3a84b604" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="8256" height="5504" src="./wp-content/uploads/2024/08/rt_hil_testbed.jpg" class="attachment-full size-full wp-image-5540" alt="">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-64027825 ot-flex-column-vertical" data-id="64027825" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-10309c4f elementor-widget elementor-widget-iheading" data-id="10309c4f" data-element_type="widget" data-widget_type="iheading.default">
+				<div class="elementor-widget-container">
+							<div class="ot-heading">
+	        <h2 class="main-heading">Research Interests</h2>	    </div>
+	    				</div>
+				</div>
+				<div class="elementor-element elementor-element-7efedb7e elementor-widget elementor-widget-text-editor" data-id="7efedb7e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p align="justify">The research goal of SG-REAL is developing ‘Power System Operation and Control’ algorithms in the context of the evolving smart grid. </p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-14955746 ot-view-default elementor-widget elementor-widget-ot-icon-list" data-id="14955746" data-element_type="widget" data-widget_type="ot-icon-list.default">
+				<div class="elementor-widget-container">
+						        <div class="ot-icon-list-wrapper">
+	        	<ul class="unstyle ot-icon-list-items ">
+	        			        			<li class="ot-icon-list-item ">
+	        				
+							<span class="ot-icon-list-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 511.985 511.985" style="enable-background:new 0 0 511.985 511.985;" xml:space="preserve"><g>	<g>		<path d="M500.088,83.681c-15.841-15.862-41.564-15.852-57.426,0L184.205,342.148L69.332,227.276   c-15.862-15.862-41.574-15.862-57.436,0c-15.862,15.862-15.862,41.574,0,57.436l143.585,143.585   c7.926,7.926,18.319,11.899,28.713,11.899c10.394,0,20.797-3.963,28.723-11.899l287.171-287.181   C515.95,125.265,515.95,99.542,500.088,83.681z"></path>	</g></g></svg>							</span>
+														<span class="ot-icon-list-text">Cybersecurity</span>
+								        			</li>
+	        			        			<li class="ot-icon-list-item ">
+	        				
+							<span class="ot-icon-list-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 511.985 511.985" style="enable-background:new 0 0 511.985 511.985;" xml:space="preserve"><g>	<g>		<path d="M500.088,83.681c-15.841-15.862-41.564-15.852-57.426,0L184.205,342.148L69.332,227.276   c-15.862-15.862-41.574-15.862-57.436,0c-15.862,15.862-15.862,41.574,0,57.436l143.585,143.585   c7.926,7.926,18.319,11.899,28.713,11.899c10.394,0,20.797-3.963,28.723-11.899l287.171-287.181   C515.95,125.265,515.95,99.542,500.088,83.681z"></path>	</g></g></svg>							</span>
+														<span class="ot-icon-list-text">Power Systems</span>
+								        			</li>
+	        			        			<li class="ot-icon-list-item ">
+	        				
+							<span class="ot-icon-list-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 511.985 511.985" style="enable-background:new 0 0 511.985 511.985;" xml:space="preserve"><g>	<g>		<path d="M500.088,83.681c-15.841-15.862-41.564-15.852-57.426,0L184.205,342.148L69.332,227.276   c-15.862-15.862-41.574-15.862-57.436,0c-15.862,15.862-15.862,41.574,0,57.436l143.585,143.585   c7.926,7.926,18.319,11.899,28.713,11.899c10.394,0,20.797-3.963,28.723-11.899l287.171-287.181   C515.95,125.265,515.95,99.542,500.088,83.681z"></path>	</g></g></svg>							</span>
+														<span class="ot-icon-list-text">Smart Grid Resiliency</span>
+								        			</li>
+	        			        			<li class="ot-icon-list-item ">
+	        				
+							<span class="ot-icon-list-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 511.985 511.985" style="enable-background:new 0 0 511.985 511.985;" xml:space="preserve"><g>	<g>		<path d="M500.088,83.681c-15.841-15.862-41.564-15.852-57.426,0L184.205,342.148L69.332,227.276   c-15.862-15.862-41.574-15.862-57.436,0c-15.862,15.862-15.862,41.574,0,57.436l143.585,143.585   c7.926,7.926,18.319,11.899,28.713,11.899c10.394,0,20.797-3.963,28.723-11.899l287.171-287.181   C515.95,125.265,515.95,99.542,500.088,83.681z"></path>	</g></g></svg>							</span>
+														<span class="ot-icon-list-text">Machine Learning & AI</span>
+								        			</li>
+	        			        			<li class="ot-icon-list-item ">
+	        				
+							<span class="ot-icon-list-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 511.985 511.985" style="enable-background:new 0 0 511.985 511.985;" xml:space="preserve"><g>	<g>		<path d="M500.088,83.681c-15.841-15.862-41.564-15.852-57.426,0L184.205,342.148L69.332,227.276   c-15.862-15.862-41.574-15.862-57.436,0c-15.862,15.862-15.862,41.574,0,57.436l143.585,143.585   c7.926,7.926,18.319,11.899,28.713,11.899c10.394,0,20.797-3.963,28.723-11.899l287.171-287.181   C515.95,125.265,515.95,99.542,500.088,83.681z"></path>	</g></g></svg>							</span>
+														<span class="ot-icon-list-text">Data Analytics</span>
+								        			</li>
+	        			        	</ul>
+	        </div>
+	    				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-852925a ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="852925a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-86c7f83 ot-flex-column-vertical" data-id="86c7f83" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3c8b287 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3c8b287" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+		<div class="elementor-element elementor-element-e9d4b54 e-flex e-con-boxed e-con e-parent" data-id="e9d4b54" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-3b5c849 e-con-full e-flex e-con e-child" data-id="3b5c849" data-element_type="container">
+				<div class="elementor-element elementor-element-a4c778e elementor-widget__width-initial elementor-widget elementor-widget-iheading" data-id="a4c778e" data-element_type="widget" data-widget_type="iheading.default">
+				<div class="elementor-widget-container">
+							<div class="ot-heading">
+	        <h2 class="main-heading">Goals & Motivation</h2>	    </div>
+	    				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0437853 e-con-full e-flex e-con e-child" data-id="0437853" data-element_type="container">
+				<div class="elementor-element elementor-element-1901237 elementor-widget__width-initial elementor-widget-divider--separator-type-pattern elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1901237" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider" style="--divider-pattern-url: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 20 16' fill='none' stroke='black' stroke-width='' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cg transform='translate(-12.000000, 0)'%3E%3Cpath d='M28,0L10,18'/%3E%3Cpath d='M18,0L0,18'/%3E%3Cpath d='M48,0L30,18'/%3E%3Cpath d='M38,0L20,18'/%3E%3C/g%3E%3C/svg%3E");">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-efee190 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-id="efee190" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-534dee2 e-con-full e-flex e-con e-child" data-id="534dee2" data-element_type="container">
+				<div class="elementor-element elementor-element-be80eb7 elementor-widget elementor-widget-text-editor" data-id="be80eb7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+<div class="edu_heading_wrapper float_left">
+<p>Availability of the smart grid data such as synchrophasor data, smart meter data, distribution automation data, cyber logs provide opportunities for better control and optimization algorithms for power system operation and control precisely towards resiliency. The approach developed by my research group includes physics-driven machine learning for power grid operation and control. My existing research projects with external and internal collaborators relate to the following.</p>
+</div>
+</div>								</div>
+				</div>
+		<div class="elementor-element elementor-element-56155cd e-grid e-con-boxed e-con e-child" data-id="56155cd" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-69ba897 elementor-position-top elementor-widget elementor-widget-image-box" data-id="69ba897" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper">
+<figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="756" height="568" src="./wp-content/uploads/2024/08/1.png" class="attachment-full size-full wp-image-5642" alt=""></figure><div class="elementor-image-box-content">
+<h5 class="elementor-image-box-title">Power System Operation and Control</h5>
+<p class="elementor-image-box-description">Data-Driven Computational Algorithms to enable security, resiliency, sustainability and voltage stability of the power grid (Transmission Systems with Microgrid and Active Distribution Systems)</p>
+</div>
+</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9c7dd04 elementor-position-top elementor-widget elementor-widget-image-box" data-id="9c7dd04" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper">
+<figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="756" height="568" src="./wp-content/uploads/2024/08/Picture1.png" class="attachment-full size-full wp-image-5640" alt=""></figure><div class="elementor-image-box-content">
+<h5 class="elementor-image-box-title">Real-Time, Multi-Layer Cyber–Power Testbed for Resiliency Analysis</h5>
+<p class="elementor-image-box-description">Real-Time Modeling and Analysis of Cyber-Power Systems for quality-aware synchrophasor applications and resiliency analysis</p>
+</div>
+</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6ec4113 elementor-position-top elementor-widget elementor-widget-image-box" data-id="6ec4113" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper">
+<figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="756" height="568" src="./wp-content/uploads/2024/08/Picture2.png" class="attachment-full size-full wp-image-5641" alt=""></figure><div class="elementor-image-box-content">
+<h5 class="elementor-image-box-title">Industrial Grade Tools</h5>
+<p class="elementor-image-box-description">Industry-grade tool development for electric grid resiliency, smart grid data analytics</p>
+</div>
+</div>				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-da8b46e ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="da8b46e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9dae04b ot-flex-column-vertical" data-id="9dae04b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+				<div class="elementor-element elementor-element-dd4025e e-flex e-con-boxed e-con e-parent" data-id="dd4025e" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-cc2b2b4 e-con-full e-grid e-con e-child" data-id="cc2b2b4" data-element_type="container">
+				<div class="elementor-element elementor-element-7f509e0 elementor-position-top elementor-widget elementor-widget-image-box" data-id="7f509e0" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper">
+<figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="756" height="568" src="./wp-content/uploads/2024/08/Picture3.png" class="attachment-full size-full wp-image-5637" alt=""></figure><div class="elementor-image-box-content">
+<h3 class="elementor-image-box-title">Research Goals</h3>
+<p class="elementor-image-box-description">Develop cybersecure and resilient power system operation and control algorithms using smart grid data, while ensuring real-time validation and continuous enhancement of these algorithms for effective system performance and security.</p>
+</div>
+</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4657b5e elementor-position-top elementor-widget elementor-widget-image-box" data-id="4657b5e" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper">
+<figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="756" height="568" src="./wp-content/uploads/2024/08/Picture5.png" class="attachment-full size-full wp-image-5639" alt=""></figure><div class="elementor-image-box-content">
+<h3 class="elementor-image-box-title">Teaching Goals</h3>
+<p class="elementor-image-box-description">Smart grid education targeted towards middle school, high school, undergraduate and graduate students using hardware-in-the-loop demonstration of smart grid devices and operations.</p>
+</div>
+</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-132f6a5 elementor-position-top elementor-widget elementor-widget-image-box" data-id="132f6a5" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper">
+<figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="756" height="568" src="./wp-content/uploads/2024/08/Picture4.png" class="attachment-full size-full wp-image-5638" alt=""></figure><div class="elementor-image-box-content">
+<h3 class="elementor-image-box-title">Motivation</h3>
+<p class="elementor-image-box-description">The electric power system is evolving towards the Smart Grid (SG) for improved reliability, security, resilience, and economic operation. SG-REAL aims to develop and validate power system operation and control algorithms.</p>
+</div>
+</div>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-b32ae13 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b32ae13" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8d401fa ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8d401fa" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9a5550c ot-flex-column-vertical" data-id="9a5550c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5dce5b4 elementor-widget elementor-widget-iheading" data-id="5dce5b4" data-element_type="widget" data-widget_type="iheading.default">
+				<div class="elementor-widget-container">
+							<div class="ot-heading">
+	        <h2 class="main-heading">Research Grants and Projects</h2>	    </div>
+	    				</div>
+				</div>
+				<div class="elementor-element elementor-element-67bf98c elementor-widget elementor-widget-spacer" data-id="67bf98c" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-81e8072 elementor-widget elementor-widget-accordion" data-id="81e8072" data-element_type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-accordion">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1361" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-1361" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">WVU Projects</a>
+					</div>
+					<div id="elementor-tab-content-1361" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1361">
+<p><strong>Active Grants:</strong></p>
+<ol>
+<li data-start="186" data-end="253">
+<strong data-start="189" data-end="206">Solar Testbed</strong> – <em data-start="209" data-end="216">Role:</em> Technical PI – <em data-start="232" data-end="241">Source:</em> DOE/WVHTF</li>
+<li data-start="254" data-end="380">
+<strong data-start="257" data-end="323">CREATE: Cyber Range Sandbox for Data-driven Security Solutions</strong> – <em data-start="326" data-end="333">Role:</em> Co-PI – <em data-start="342" data-end="351">Source:</em> WV/Department of Education</li>
+<li data-start="381" data-end="529">
+<strong data-start="384" data-end="487">Resilient Communities via Risk-driven Infrastructure Planning and Automated Restoration (Recuperat)</strong> – <em data-start="490" data-end="497">Role:</em> WVU PI – <em data-start="507" data-end="516">Source:</em> US DoE/WSU</li>
+<li data-start="530" data-end="665">
+<strong data-start="533" data-end="594">Developing a Multi-State Smart Grid Deployment Consortium</strong> – <em data-start="597" data-end="604">Role:</em> WVU PI – <em data-start="614" data-end="623">Source:</em> Appalachian Regional Commission/TN Tech</li>
+<li data-start="666" data-end="771">
+<strong data-start="669" data-end="707">Battery Management System Modeling</strong> – <em data-start="710" data-end="717">Role:</em> Lead PI – <em data-start="728" data-end="737">Source:</em> Newport News Shipbuilding (NNS)</li>
+<li data-start="772" data-end="914">
+<strong data-start="775" data-end="878">Travel: 2024 International Conference on Smart Grid Synchronized Measurements &amp; Analytics (SGSMA24)</strong> – <em data-start="881" data-end="888">Role:</em> Lead PI – <em data-start="899" data-end="908">Source:</em> NSF</li>
+<li data-start="915" data-end="1067">
+<strong data-start="918" data-end="1023">STTR Phase I: Datapoint Measurements of Second Life Batteries for State of Health and State of Charge</strong> – <em data-start="1026" data-end="1033">Role:</em> WVU PI – <em data-start="1043" data-end="1052">Source:</em> Parthian/NSF</li>
+<li data-start="1068" data-end="1253">
+<strong data-start="1071" data-end="1212">Deployment of a Community-Oriented Interoperable Control Framework for Aggregating and Integrating DERs and Other Grid-Edge Devices (ICF)</strong> – <em data-start="1215" data-end="1222">Role:</em> WVU PI – <em data-start="1232" data-end="1241">Source:</em> DOE/ComED</li>
+<li data-start="1254" data-end="1380">
+<strong data-start="1257" data-end="1339">Artificial Intelligence Cybersecurity Readiness and Future Training (AI-CRAFT)</strong> – <em data-start="1342" data-end="1349">Role:</em> WVU PI – <em data-start="1359" data-end="1368">Source:</em> DARPA/FIU</li>
+</ol>
+<p><strong>Completed Grants:</strong></p>
+<ol>
+<li data-start="1423" data-end="1638">
+<strong data-start="1426" data-end="1598">CPS: DFG Joint: Medium: Collaborative Research: Data-Driven Secure Holonic Control and Optimization for the Networked CPS (aDaptioN) (Transferred) + US-India Supplement</strong> – <em data-start="1601" data-end="1608">Role:</em> Lead PI – <em data-start="1619" data-end="1628">Source:</em> NSF/DFG</li>
+<li data-start="1639" data-end="1775">
+<strong data-start="1642" data-end="1736">UI-ASSIST: US-India Collaborative for Smart Distribution System with Storage (Transferred)</strong> – <em data-start="1739" data-end="1746">Role:</em> WVU PI – <em data-start="1756" data-end="1765">Source:</em> DOE/DST</li>
+<li data-start="1776" data-end="1931">
+<strong data-start="1779" data-end="1895">Augmenting and Advancing Cognitive Performance of Control Room Operators for Power Grid Resiliency (Transferred)</strong> – <em data-start="1898" data-end="1905">Role:</em> Lead PI – <em data-start="1916" data-end="1925">Source:</em> NSF</li>
+<li data-start="1932" data-end="2059">
+<strong data-start="1935" data-end="2024">Efficient UltRa Endpoint IoT-enabled Coordinated Architecture (EUREICA) (Transferred)</strong> – <em data-start="2027" data-end="2034">Role:</em> WVU PI – <em data-start="2044" data-end="2053">Source:</em> DOE</li>
+<li data-start="2060" data-end="2202">
+<strong data-start="2063" data-end="2148">SolarSTARTS: Solar-Assisted State-Aware and ResilienT Infrastructure System (WVU)</strong> – <em data-start="2151" data-end="2158">Role:</em> WVU PI – <em data-start="2168" data-end="2177">Source:</em> DOE/University of Utah</li>
+<li data-start="2203" data-end="2373">
+<strong data-start="2206" data-end="2327">Prototype Development of Malicious Device Detection System Using Side-Channel Signals and Machine Learning Algorithms</strong> – <em data-start="2330" data-end="2337">Role:</em> Co-PI – <em data-start="2346" data-end="2355">Source:</em> DoD/Marshall U.</li>
+<li data-start="2374" data-end="2453">
+<strong data-start="2377" data-end="2405">Enabling Coal Transition</strong> – <em data-start="2408" data-end="2415">Role:</em> Multi-Lab Call – <em data-start="2433" data-end="2442">Source:</em> DOE/PNNL</li>
+</ol>
+</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1362" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-1362" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">WSU Projects</a>
+					</div>
+					<div id="elementor-tab-content-1362" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-1362">
+<p><strong>Completed Grants:</strong></p>
+<ol>
+<li>
+<strong data-start="33" data-end="83">Grid Ready Energy Analytics Training with Data</strong> – Role: Co-PI – Source: DOE/EPRI</li>
+<li>
+<strong data-start="122" data-end="195">Federated Predictive Analysis for Power Grid Using Multi-Agent Models</strong> – Role: WSU PI – Source: PNNL DGRP</li>
+<li>
+<strong data-start="236" data-end="343">Data-driven Control of DERs &amp; Hybrid PV Plants for Enhancing Voltage Stability Over Multiple Timescales</strong> – Role: WSU PI – Source: NSF I/UCRC PSERC</li>
+<li>
+<strong data-start="391" data-end="448">Tools for Keeping Your Power ON During Extreme Events</strong> – Role: WSU PI – Source: WSU CGF</li>
+<li>
+<strong data-start="487" data-end="587">AGGREGATE: Data-Driven Modeling Preserving Controllable DER for Outage Management and Resiliency</strong> – Role: Lead PI – Source: DOE</li>
+<li>
+<strong data-start="623" data-end="643">AGI Grid Sandbox</strong> – Role: WSU PI – Source: Pacific Northwest National Lab</li>
+<li>
+<strong data-start="705" data-end="834">Resilient Alaskan Distribution System Improvements Using Automation, Network Analysis, Control, and Energy Storage (RADIANCE)</strong> – Role: WSU PI – Source: INL/DOE</li>
+<li>
+<strong data-start="873" data-end="972">Development of Prototypical Communications System Models for Cyber-Physical Resiliency Analysis</strong> – Role: WSU PI – Source: PNNL DGRP</li>
+<li>
+<strong data-start="1013" data-end="1067">Cyber Resilient Energy Delivery Consortium (CREDC)</strong> – Role: Co-PI – Source: DOE</li>
+<li>
+<strong data-start="1102" data-end="1201">Smart Reconfiguration of Idaho Falls Power Distribution Network for Enhanced Quality of Service</strong> – Role: PI – Source: Idaho National Lab/DOE</li>
+<li data-start="54" data-end="158">
+<strong data-start="54" data-end="126">NSF Workshop on Real-Time Data Analytics for Resilient Electric Grid</strong> – Role: Lead PI – Source: NSF</li>
+<li data-start="163" data-end="346">
+<strong data-start="163" data-end="319">CPS: Synergy: Collaborative Research: Diagnostics and Prognostics Using Temporal Causal Models for Cyber-Physical Systems- A Case of Smart Electric Grid</strong> – Role: PI – Source: NSF</li>
+<li data-start="351" data-end="473">
+<strong data-start="351" data-end="437">Kronos++: Dynamic Knowledge Inference for Real-Time Smart Grid Resiliency Analysis</strong> – Role: Lead PI – Source: Siemens</li>
+<li data-start="478" data-end="627">
+<strong data-start="478" data-end="597">CPS: TTP Option: Synergy: Collaborative Research: The Science of Activity-Predictive Cyber-Physical Systems (APCPS)</strong> – Role: Co-PI – Source: NSF</li>
+<li data-start="632" data-end="749">
+<strong data-start="632" data-end="713">Kronos: Knowledge Base of Real-time Power Event on Heterogeneous Data Streams</strong> – Role: Lead PI – Source: Siemens</li>
+<li data-start="754" data-end="895">
+<strong data-start="754" data-end="865">Collaborative Research: The Adoption of an Emerging Technology for Improving the Electrical Delivery System</strong> – Role: Co-PI – Source: NSF</li>
+<li data-start="900" data-end="1012">
+<strong data-start="900" data-end="979">Develop a Technique to Derive Static ZIP Load Model from Synchrophasor Data</strong> – Role: Lead PI – Source: EPRI</li>
+<li data-start="1017" data-end="1106">
+<strong data-start="1017" data-end="1070">Data Analytics for the Smart Grid (DASG) Workshop</strong> – Role: Lead PI – Source: Siemens</li>
+<li data-start="1111" data-end="1252">
+<strong data-start="1111" data-end="1210">Advanced Cyber-Physical Analysis for Smart Grid Distributed ICT and IED Resources at RTE France</strong> – Role: Co-PI – Source: NSF IUCRC PSERC</li>
+<li data-start="1257" data-end="1440">
+<strong data-start="1257" data-end="1379">Analyzing Cognitive Flexibility of Control Room Operator with Advanced Decision Support Tools in Extreme Contingencies</strong> – Role: Lead PI – Source: Energy Systems Innovation Center</li>
+<li data-start="1446" data-end="1534">
+<strong data-start="1446" data-end="1498">Cyber-Physical Security Analytics for Smart Grid</strong> – Role: Lead PI – Source: Siemens</li>
+<li data-start="1539" data-end="1588">
+<strong data-start="1539" data-end="1561">Global RT-SuperLab</strong> – Role: PI – Source: INL</li>
+<li data-start="1593" data-end="1767">
+<strong data-start="1593" data-end="1689">Deployment and Evaluation of Energy Storage Integrated into the Pullman Smart Grid Community</strong> – Role: Co-PI – Source: Washington State Department of Commerce/AVISTA/PNNL</li>
+<li data-start="1772" data-end="1973">
+<strong data-start="1772" data-end="1914">Analyzing the Impact of NERC CIP on Power System Operations and Developing Techniques/Business Plan for Optimal Cybersecurity Requirements</strong> – Role: Co-PI – Source: Energy Systems Innovation Center</li>
+<li data-start="1978" data-end="2140">
+<strong data-start="1978" data-end="2113">Collaborative Research: Integrated Policy and Engineering Design for Complex Systems with Applications to Smart Distribution System</strong> – Role: PI – Source: NSF</li>
+<li data-start="2145" data-end="2219">
+<strong data-start="2145" data-end="2174">Smart City Testbed at WSU</strong> – Role: Co-PI – Source: Murdock Foundation</li>
+<li data-start="2224" data-end="2353">
+<strong data-start="2224" data-end="2321">A Collaborative Educational Program on Synchrophasor Applications for the Smart Electric Grid</strong> – Role: Lead PI – Source: DOE</li>
+<li data-start="2358" data-end="2504">
+<strong data-start="2358" data-end="2477">Collaborative Research: Smart Power Distribution System Curriculum – Multi-Institution Demonstration and Deployment</strong> – Role: PI – Source: NSF</li>
+<li data-start="2509" data-end="2627">
+<strong data-start="2509" data-end="2571">Development of a Smart Phone App for Energy Sustainability</strong> – Role: PI – Source: Energy Systems Innovation Center</li>
+<li data-start="2632" data-end="2754">
+<strong data-start="2632" data-end="2704">Real-Time Modeling and Simulation Module for the Smart Electric Grid</strong> – Role: PI – Source: WSU VCEA Equipment Program</li>
+<li data-start="2760" data-end="2873">
+<strong data-start="2760" data-end="2817">Substation Automation and Trip Coil Health Monitoring</strong> – Role: PI – Source: Schweitzer Engineering Lab (SEL)</li>
+<li data-start="2878" data-end="2999">
+<strong data-start="2878" data-end="2935">Adaptive and Intelligent PMU for Smarter Applications</strong> – Role: PI – Source: Power System Engineering Research Center</li>
+<li data-start="3004" data-end="3154">
+<strong data-start="3004" data-end="3124">Student Support for the 2014 North American Power Symposium (NAPS), held at Washington State University, Pullman, WA</strong> – Role: Co-PI – Source: NSF</li>
+<li data-start="3159" data-end="3361">
+<strong data-start="3159" data-end="3286">Developing a Battery-Extender Auxiliary Power Unit (BE-APU) for Next-Generation Commercial Airplanes (with Boeing), Phase 3</strong> – Role: Co-PI – Source: Joint Center for Aerospace Technology Innovation</li>
+<li data-start="3366" data-end="3463">
+<strong data-start="3366" data-end="3421">Trustworthy Cyber-Infrastructure for the Power Grid</strong> – Role: Senior Researcher – Source: DOE</li>
+<li data-start="3468" data-end="3661">
+<strong data-start="3468" data-end="3588">Implementing Smart Meter Applications in Washington State: Institutional Analysis of an Emerging Technological Field</strong> – Role: Co-PI – Source: WSU Energy System Innovation Center Seed Grant</li>
+<li data-start="3666" data-end="3823">
+<strong data-start="3666" data-end="3741">Engineering and Sociological Foundations for Smart Distribution Systems</strong> – Role: Co-PI – Source: CEA Strategic Investments for Research Excellence Grant</li>
+<li data-start="3828" data-end="3903">
+<strong data-start="3828" data-end="3869">AVISTA Smart Grid Demonstration Grant</strong> – Role: PI – Source: AVISTA/DOE</li>
+<li data-start="3908" data-end="4041">
+<strong data-start="3908" data-end="3990">Course Development “Critical Infrastructure Security: The Emerging Smart Grid”</strong> – Role: PI – Source: DOE through NSF IUCRC PSERC</li>
+<li data-start="4046" data-end="4178">
+<strong data-start="4046" data-end="4113">Feasibility of a Smart Distribution System for Microsoft Campus</strong> – Role: Co-PI – Source: Puget Sound Energy (PSE) and Microsoft</li>
+<li data-start="4184" data-end="4256">
+<strong data-start="4184" data-end="4222">AVISTA Smart Grid Investment Grant</strong> – Role: PI – Source: AVISTA/DOE</li>
+<li data-start="4261" data-end="4463">
+<strong data-start="4261" data-end="4388">Developing a Battery-Extender Auxiliary Power Unit (BE-APU) for Next-Generation Commercial Airplanes (with Boeing), Phase 2</strong> – Role: Co-PI – Source: Joint Center for Aerospace Technology Innovation</li>
+<li data-start="4468" data-end="4620">
+<strong data-start="4468" data-end="4545">Testing and Validation of Phasor Measurement-Based Devices and Algorithms</strong> – Role: PI – Source: NSF I/UCRC Power System Engineering Research Center</li>
+<li data-start="4625" data-end="4728">
+<strong data-start="4625" data-end="4681">Interconnection Level Transmission Planning Analysis</strong> – Role: Senior Researcher – Source: DOE/WECC</li>
+<li data-start="4733" data-end="4833">
+<strong data-start="4733" data-end="4792">Training Program in Clean Energy Smart Grid Engineering</strong> – Role: Senior Personnel – Source: DOE</li>
+<li data-start="4838" data-end="4973">
+<strong data-start="4838" data-end="4920">Social Factors Influencing Implementation and Usage of Smart Grid Technologies</strong> – Role: Co-PI – Source: WSU IGIS Grant Application</li>
+<li data-start="4978" data-end="5132">
+<strong data-start="4978" data-end="5105">A Nationwide Consortium of Universities to Revitalize Electric Power Engineering Education by State-of-the-Art Laboratories</strong> – Role: PI – Source: DOE</li>
+<li data-start="5137" data-end="5339">
+<strong data-start="5137" data-end="5264">Developing a Battery-Extender Auxiliary Power Unit (BE-APU) for Next-Generation Commercial Airplanes (with Boeing), Phase I</strong> – Role: Co-PI – Source: Joint Center for Aerospace Technology Innovation</li>
+<li data-start="5344" data-end="5466">
+<strong data-start="5344" data-end="5420">Smart Energy Environments: Design for Human Interaction with Smart Grids</strong> – Role: Co-PI – Source: WSU ESIC Seed Grant</li>
+<li data-start="5471" data-end="5585">
+<strong data-start="5471" data-end="5519">Real-Time Operation and Control of Microgrid</strong> – Role: PI – Source: WSU Research Office New Faculty Seed Grant</li>
+<li>
+<b>Computational Needs for the Next Generation Electric Grid </b>– Role: PI – Source: Department of Energy (DOE)</li>
+</ol>
+</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1363" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-1363" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">MSU Projects</a>
+					</div>
+					<div id="elementor-tab-content-1363" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-1363">
+<p><strong>Completed Grants:</strong></p>
+<ol>
+<li>
+<strong data-start="31" data-end="101">Student Travel Support for the 2009 North American Power Symposium</strong> – Role: PI, Source: National Science Foundation</li>
+<li>
+<strong data-start="155" data-end="205">Remote, nondestructive testing of power system</strong> – Role: PI, Source: Office of Naval Research, through Drexel University</li>
+<li>
+<strong data-start="283" data-end="373">Travel funding for attending American Society of Engineering Education, Pittsburgh, PA</strong> – Role: PI, Source: MSU Office of Research</li>
+<li>
+<strong data-start="422" data-end="508">Advanced Naval Power Systems through Electric ship system research and development</strong> – Role: Co-PI, Source: Office of Naval Research (Prime) through Florida State University</li>
+<li>
+<strong data-start="603" data-end="716">Study of interconnection benefits, strategies and impact of distributed generation on the electric power grid</strong> – Role: Co-PI, Source: Department of Energy (DOE)</li>
+<li>
+<strong data-start="772" data-end="840">Adaptive reconfiguration for shipboard power and support systems</strong> – Role: Co-PI, Source: Office of Naval Research/ Florida State University</li>
+<li>
+<strong data-start="920" data-end="973">The Western Interconnection Synchrophasor Project</strong> – Role: Senior Researcher, Source: DOE SGIG through Western Electricity Coordinating Council/ PGE</li>
+<li>
+<strong data-start="1077" data-end="1171">Semantic-driven knowledge discovery system for wide-area monitoring of electric power grid</strong> – Role: Senior Researcher, Source: Department of Homeland Security (DoHS)</li>
+<li>
+<strong data-start="1251" data-end="1372">High-performance real-time system for hardware in the loop testing and analysis of advanced power and control systems</strong> – Role: Senior Researcher, Source: Department of Defense (DoD), DURIP</li>
+</ol>
+</div>
+				</div>
+								</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-313f2c0 elementor-widget elementor-widget-spacer" data-id="313f2c0" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-ecc5831 elementor-widget elementor-widget-ibutton" data-id="ecc5831" data-element_type="widget" data-widget_type="ibutton.default">
+				<div class="elementor-widget-container">
+							<div class="ot-button">
+			<a href="./research-interests-and-grants/index.html" class="octf-btn octf-btn-primary">View All</a>
+	    </div>
+	    				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8bbae15 elementor-hidden-tablet elementor-hidden-mobile ot-flex-column-vertical" data-id="8bbae15" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8289b03 elementor-widget elementor-widget-image" data-id="8289b03" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="8256" height="5504" src="./wp-content/uploads/2024/08/control_center.jpg" class="attachment-full size-full wp-image-5537" alt="">															</div>
+				</div>
+				<div class="elementor-element elementor-element-d592725 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="d592725" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-763d76a ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="763d76a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-88c7386 ot-flex-column-vertical" data-id="88c7386" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-eb784a2 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="eb784a2" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+		<div class="elementor-element elementor-element-36f553a e-flex e-con-boxed e-con e-parent" data-id="36f553a" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b9d5fd6 e-con-full e-flex e-con e-child" data-id="b9d5fd6" data-element_type="container">
+				<div class="elementor-element elementor-element-2e309fa elementor-widget elementor-widget-iheading" data-id="2e309fa" data-element_type="widget" data-widget_type="iheading.default">
+				<div class="elementor-widget-container">
+							<div class="ot-heading">
+	        <h2 class="main-heading">Our Latest News</h2>	    </div>
+	    				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f1bbdaf e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="f1bbdaf" data-element_type="container">
+				<div class="elementor-element elementor-element-c8ef73e elementor-widget__width-initial elementor-widget-divider--separator-type-pattern elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c8ef73e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider" style="--divider-pattern-url: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 20 16' fill='none' stroke='black' stroke-width='' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cg transform='translate(-12.000000, 0)'%3E%3Cpath d='M28,0L10,18'/%3E%3Cpath d='M18,0L0,18'/%3E%3Cpath d='M48,0L30,18'/%3E%3Cpath d='M38,0L20,18'/%3E%3C/g%3E%3C/svg%3E");">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4c9f1f1 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="4c9f1f1" data-element_type="container">
+				<div class="elementor-element elementor-element-579e46f elementor-align-right elementor-widget elementor-widget-ibutton" data-id="579e46f" data-element_type="widget" data-widget_type="ibutton.default">
+				<div class="elementor-widget-container">
+							<div class="ot-button">
+			<a href="./news/index.html" class="octf-btn octf-btn-primary">View All</a>
+	    </div>
+	    				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5f9a9606 ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f9a9606" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5141b050 ot-flex-column-vertical" data-id="5141b050" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-231fea4e elementor-section-full_width ot-traditional elementor-section-height-default elementor-section-height-default" data-id="231fea4e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e049a94 ot-flex-column-vertical" data-id="e049a94" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3831424d elementor-widget elementor-widget-image" data-id="3831424d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="./wp-content/uploads/elementor/thumbs/2024CybersecurityTannerLab-876x493-1-r1z1uhf62zwjgucf2bmnfbjmerdr3pnx2i4s5yc34w.jpg" title="2024CybersecurityTannerLab-876&#215;493" alt="2024CybersecurityTannerLab-876x493" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-722793e8 elementor-widget elementor-widget-text-editor" data-id="722793e8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>September 30, 2024</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-65792c97 elementor-widget elementor-widget-heading" data-id="65792c97" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://media.statler.wvu.edu/news/2024/10/01/wvu-computer-science-and-cybersecurity-undergraduate-programs-reach-significant-growth-this-fall-semester">WVU computer science and cybersecurity undergraduate programs reach significant growth this fall semester</a></h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1be254cc elementor-widget elementor-widget-button" data-id="1be254cc" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://media.statler.wvu.edu/news/2024/10/01/wvu-computer-science-and-cybersecurity-undergraduate-programs-reach-significant-growth-this-fall-semester">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 447.243 447.243" xml:space="preserve" class=""><g transform="matrix(-1,1.2246467991473527e-16,-1.224646799147353e-16,-0.9999999999999999,447.24222564697277,447.2415199279784)"><g>	<g>		<path d="M420.361,192.229c-1.83-0.297-3.682-0.434-5.535-0.41H99.305l6.88-3.2c6.725-3.183,12.843-7.515,18.08-12.8l88.48-88.48    c11.653-11.124,13.611-29.019,4.64-42.4c-10.441-14.259-30.464-17.355-44.724-6.914c-1.152,0.844-2.247,1.764-3.276,2.754    l-160,160C-3.119,213.269-3.13,233.53,9.36,246.034c0.008,0.008,0.017,0.017,0.025,0.025l160,160    c12.514,12.479,32.775,12.451,45.255-0.063c0.982-0.985,1.899-2.033,2.745-3.137c8.971-13.381,7.013-31.276-4.64-42.4    l-88.32-88.64c-4.695-4.7-10.093-8.641-16-11.68l-9.6-4.32h314.24c16.347,0.607,30.689-10.812,33.76-26.88    C449.654,211.494,437.806,195.059,420.361,192.229z" data-original="#000000" class=""></path>	</g></g></g></svg>			</span>
+									<span class="elementor-button-text">Read More</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-49cdcebc ot-flex-column-vertical" data-id="49cdcebc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2e0b80e4 elementor-widget elementor-widget-image" data-id="2e0b80e4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="2000" height="1250" src="./wp-content/uploads/2025/02/W24_Feature_Cybersecurity-2000x1250-1.jpg" class="attachment-full size-full wp-image-6038" alt="">															</div>
+				</div>
+				<div class="elementor-element elementor-element-3f4917ea elementor-widget elementor-widget-text-editor" data-id="3f4917ea" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>August 09, 2024</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-4a6aae43 elementor-widget elementor-widget-heading" data-id="4a6aae43" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://magazine.wvu.edu/stories/2024/11/02/match-up">MATCH UP: WVU is training the next generation of cyber warriors</a></h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3b47cdd4 elementor-widget elementor-widget-button" data-id="3b47cdd4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://magazine.wvu.edu/stories/2024/11/02/match-up">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 447.243 447.243" xml:space="preserve" class=""><g transform="matrix(-1,1.2246467991473527e-16,-1.224646799147353e-16,-0.9999999999999999,447.24222564697277,447.2415199279784)"><g>	<g>		<path d="M420.361,192.229c-1.83-0.297-3.682-0.434-5.535-0.41H99.305l6.88-3.2c6.725-3.183,12.843-7.515,18.08-12.8l88.48-88.48    c11.653-11.124,13.611-29.019,4.64-42.4c-10.441-14.259-30.464-17.355-44.724-6.914c-1.152,0.844-2.247,1.764-3.276,2.754    l-160,160C-3.119,213.269-3.13,233.53,9.36,246.034c0.008,0.008,0.017,0.017,0.025,0.025l160,160    c12.514,12.479,32.775,12.451,45.255-0.063c0.982-0.985,1.899-2.033,2.745-3.137c8.971-13.381,7.013-31.276-4.64-42.4    l-88.32-88.64c-4.695-4.7-10.093-8.641-16-11.68l-9.6-4.32h314.24c16.347,0.607,30.689-10.812,33.76-26.88    C449.654,211.494,437.806,195.059,420.361,192.229z" data-original="#000000" class=""></path>	</g></g></g></svg>			</span>
+									<span class="elementor-button-text">Read More</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-675d26 ot-flex-column-vertical" data-id="675d26" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7de90691 elementor-widget elementor-widget-image" data-id="7de90691" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="./wp-content/uploads/elementor/thumbs/AI-CRAFT-876x493-1-r1z1zbbb7cil4pbtuwsmqlnwb1knnpu9eetly5695s.jpg" title="AI-CRAFT-876&#215;493" alt="AI-CRAFT-876x493" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-645f68b elementor-widget elementor-widget-text-editor" data-id="645f68b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>May 02, 2024</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-1b2ad9d4 elementor-widget elementor-widget-heading" data-id="1b2ad9d4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://media.statler.wvu.edu/news/2024/05/02/wvu-researchers-to-utilize-1-75m-in-federal-funding-for-innovative-cybersecurity-ai-program">WVU researchers to utilize $1.75M in federal funding for innovative cybersecurity AI program</a></h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-35d01d2a elementor-widget elementor-widget-button" data-id="35d01d2a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://media.statler.wvu.edu/news/2024/05/02/wvu-researchers-to-utilize-1-75m-in-federal-funding-for-innovative-cybersecurity-ai-program">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 447.243 447.243" xml:space="preserve" class=""><g transform="matrix(-1,1.2246467991473527e-16,-1.224646799147353e-16,-0.9999999999999999,447.24222564697277,447.2415199279784)"><g>	<g>		<path d="M420.361,192.229c-1.83-0.297-3.682-0.434-5.535-0.41H99.305l6.88-3.2c6.725-3.183,12.843-7.515,18.08-12.8l88.48-88.48    c11.653-11.124,13.611-29.019,4.64-42.4c-10.441-14.259-30.464-17.355-44.724-6.914c-1.152,0.844-2.247,1.764-3.276,2.754    l-160,160C-3.119,213.269-3.13,233.53,9.36,246.034c0.008,0.008,0.017,0.017,0.025,0.025l160,160    c12.514,12.479,32.775,12.451,45.255-0.063c0.982-0.985,1.899-2.033,2.745-3.137c8.971-13.381,7.013-31.276-4.64-42.4    l-88.32-88.64c-4.695-4.7-10.093-8.641-16-11.68l-9.6-4.32h314.24c16.347,0.607,30.689-10.812,33.76-26.88    C449.654,211.494,437.806,195.059,420.361,192.229z" data-original="#000000" class=""></path>	</g></g></g></svg>			</span>
+									<span class="elementor-button-text">Read More</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-afb9f7b elementor-hidden-desktop elementor-widget elementor-widget-spacer" data-id="afb9f7b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-83e5117 elementor-align-center elementor-hidden-desktop elementor-widget elementor-widget-ibutton" data-id="83e5117" data-element_type="widget" data-widget_type="ibutton.default">
+				<div class="elementor-widget-container">
+							<div class="ot-button">
+			<a href="./news/index.html" class="octf-btn octf-btn-primary">View All</a>
+	    </div>
+	    				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+
+	</div>
+<!-- #content -->
+	<footer id="site-footer" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">		<div data-elementor-type="wp-post" data-elementor-id="5459" class="elementor elementor-5459">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-733f3699 elementor-section-content-middle ot-traditional elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="733f3699" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-787593a7 ot-flex-column-vertical" data-id="787593a7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-c738a68 elementor-section-full_width ot-traditional elementor-section-height-default elementor-section-height-default" data-id="c738a68" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4ff34dfb ot-flex-column-vertical" data-id="4ff34dfb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3a1d224a elementor-widget elementor-widget-ilogo" data-id="3a1d224a" data-element_type="widget" data-widget_type="ilogo.default">
+				<div class="elementor-widget-container">
+								
+	    	<div class="the-logo">
+				<a href="./index.html">
+					<img src="./wp-content/uploads/2023/01/Asset-1.png" alt="Smart Grid REsiliency and Analytics Lab">
+				</a>			        
+		    </div>
+		    
+	    				</div>
+				</div>
+				<div class="elementor-element elementor-element-2401c80 elementor-widget elementor-widget-iheading2" data-id="2401c80" data-element_type="widget" data-widget_type="iheading2.default">
+				<div class="elementor-widget-container">
+							<div class="ot-heading">
+	        <h2 class="main-heading">SMART GRID RESILIENCY AND ANALYTICS LAB</h2>	    </div>
+	    				</div>
+				</div>
+				<div class="elementor-element elementor-element-4fb2aea elementor-widget elementor-widget-spacer" data-id="4fb2aea" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-769a3528 ot-flex-column-vertical" data-id="769a3528" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c2b6ac8 elementor-widget elementor-widget-iheading2" data-id="c2b6ac8" data-element_type="widget" data-widget_type="iheading2.default">
+				<div class="elementor-widget-container">
+							<div class="ot-heading">
+	        <h6 class="main-heading">Dr. Anurag K Srivastava</h6>	    </div>
+	    				</div>
+				</div>
+				<div class="elementor-element elementor-element-5ec134b2 elementor-widget__width-initial ot-view-default elementor-widget elementor-widget-ot-icon-list" data-id="5ec134b2" data-element_type="widget" data-widget_type="ot-icon-list.default">
+				<div class="elementor-widget-container">
+						        <div class="ot-icon-list-wrapper">
+	        	<ul class="unstyle ot-icon-list-items ">
+	        			        			<li class="ot-icon-list-item ">
+	        											<span class="ot-icon-list-text">Raymond J. Lane Professor And Chairperson Lane Department Of Computer Science And Electrical Engineering</span>
+								        			</li>
+	        			        			<li class="ot-icon-list-item ">
+	        											<span class="ot-icon-list-text">AERB 363B, 1220 Evansdale Drive, PO Box 6109 West Virginia University, Morgantown, WV 26506</span>
+								        			</li>
+	        			        			<li class="ot-icon-list-item ">
+	        													<a class="title-link" href="tel:+13042933017">
+
+																<span class="ot-icon-list-text">Phone: 1-304-293-3017</span>
+															</a>
+								        			</li>
+	        			        			<li class="ot-icon-list-item ">
+	        													<a class="title-link" href="mailto:anurag.srivastava@mail.wvu.edu">
+
+																<span class="ot-icon-list-text">E-mail: anurag.srivastava@mail.wvu.edu</span>
+															</a>
+								        			</li>
+	        			        	</ul>
+	        </div>
+	    				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-69ebe43 ot-flex-column-vertical" data-id="69ebe43" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-35e5f5cf elementor-shape-square elementor-grid-4 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="35e5f5cf" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f98daf5" href="https://www.linkedin.com/in/srivanu/" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<svg class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-researchgate elementor-repeater-item-c6d22b5" target="_blank">
+						<span class="elementor-screen-only">Researchgate</span>
+						<svg class="e-font-icon-svg e-fab-researchgate" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2-9.2-10.6-25.3-33.3-42.2-63.6-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6 31.7 0 55.9 14.4 55.9 45.6 0 21.1-16.7 42.2-39.2 47.5 13.6 24.2 30 45.6 42.2 58.9 7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3 14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6 23.3 0 37.2 12.2 37.2 34.5 0 21.9-15 36.6-39.7 36.6z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-google elementor-repeater-item-89a82cf" href="https://scholar.google.com/citations?hl=en&#038;user=_GtNYPMAAAAJ" target="_blank">
+						<span class="elementor-screen-only">Google</span>
+						<svg class="e-font-icon-svg e-fab-google" viewbox="0 0 488 512" xmlns="http://www.w3.org/2000/svg"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-5ee364e4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5ee364e4" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-15c0ab64 elementor-section-full_width ot-traditional elementor-section-height-default elementor-section-height-default" data-id="15c0ab64" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7469cdf7 ot-flex-column-vertical" data-id="7469cdf7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-60fac48f elementor-widget elementor-widget-text-editor" data-id="60fac48f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Copyright © 2025 | Smart Grid Resiliency and Analytics Lab | All Rights Reserved.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</footer>
+</div>
+<!-- #page -->
+
+<a id="back-to-top" href="#" class="show"><i class="flaticon-up-arrow"></i></a>			<script>const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );</script>
+			<link rel="stylesheet" id="elementor-post-5457-css" href="./wp-content/uploads/elementor/css/post-5457.css?ver=1740996355" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-5458-css" href="./wp-content/uploads/elementor/css/post-5458.css?ver=1740996356" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-2856-css" href="./wp-content/uploads/elementor/css/post-2856.css?ver=1740996356" type="text/css" media="all">
+<link rel="stylesheet" id="widget-image-gallery-css" href="./wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-icon-box-css" href="./wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="e-animation-float-css" href="./wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-float.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="widget-social-icons-css" href="./wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="e-apple-webkit-css" href="./wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.27.6" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-5459-css" href="./wp-content/uploads/elementor/css/post-5459.css?ver=1740996356" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-2-css" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.2" type="text/css" media="all">
+<script type="text/javascript" src="./wp-content/themes/engitech/js/royal_preloader.min.js?ver=20180910" id="royal-preloader-js"></script>
+<script type="text/javascript" src="./wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/jquery.magnific-popup.min.js?ver=20180910" id="magnific-popup-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/jquery.isotope.min.js?ver=20190829" id="isotope-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/slick.min.js?ver=20180910" id="slick-slider-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/easypiechart.min.js?ver=20190829" id="easypiechart-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/jquery.countdown.min.js?ver=20180910" id="countdown-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/elementor.js?ver=20180910" id="engitech-elementor-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/elementor-header.js?ver=20180910" id="engitech-elementor-header-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/scripts.js?ver=20180910" id="engitech-scripts-js"></script>
+<script type="text/javascript" src="./wp-content/themes/engitech/js/header-mobile.js?ver=20180910" id="engitech-header-mobile-scripts-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.27.6" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.27.6" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.27.6","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"e_onboarding":true,"home_screen":true,"nested-elements":true,"editor_v2":true,"e_element_cache":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":".\/\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":".\/\/wp-admin\/admin-ajax.php","uploadUrl":".\/\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"7d92291b6f"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":5500,"title":"Smart%20Grid%20REsiliency%20and%20Analytics%20Lab","excerpt":"","featuredImage":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.6" id="elementor-frontend-js"></script>
+
+</body>
+</html>
